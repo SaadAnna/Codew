@@ -43,9 +43,9 @@ export default function Projectdetails() {
         className="ml-5 block text-start justify-start items-start mt-28 lg:ml-8"
          >
         <h1 className="text-4xl font-Text font-medium lg:text-6xl text-black">
-          Start Your Project
+          Start your project
         </h1>
-        <p className="text-neutral-600 text-xl font-Text mt-7">
+        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
           Fill Out The Form Below To Begin Your Journey with Codew. We'll Review{" "}
           <br />
           Your Project Details And Get Back To You Within 24 Hours.{" "}
@@ -179,9 +179,9 @@ export default function Projectdetails() {
         className="ml-5 block text-start justify-start items-start mt-72 lg:ml-8"
          > 
 
-      <h1 className="text-5xl font-bold text-black font-Text">What Happens Next?
+      <h1 className="text-5xl font-bold text-black font-Text">What happens next?
       </h1>
-      <p className="text-neutral-600 text-xl font-Text mt-5">Our streamlined process to kickstart your project</p>
+      <p className="text-neutral-600 text-lg font-Text mt-5">Our streamlined process to kickstart your project</p>
       </div>
       <div  className="block justify-center text-center items-center m-auto mt-24 lg:flex lg:justify-around lg:items-center lg:text-center lg-mt-24">
 
@@ -252,7 +252,7 @@ export default function Projectdetails() {
       >
         <div className=" mt-16  lg:block lg:text-start  lg:justify-start lg:items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
-          <p className="text-neutral-600 text-base font-Text mt-4">
+          <p className="text-neutral-600 lowercase text-base font-Text mt-4">
             Make Your Business More Famous By Designing A<br />
             Wonderful And Attractive Website With <br />
             The Help Of The Best <br />

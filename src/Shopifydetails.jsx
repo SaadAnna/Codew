@@ -43,8 +43,8 @@ export default function Shopifydetails() {
         className="ml-5 block text-start justify-start items-start mt-28 lg:ml-8"
         >
             <h1 className="text-4xl font-Text font-medium lg:text-6xl text-black">
-            Request Your Custom <br /> Shopify Store            </h1>
-            <p className="text-neutral-600 text-xl font-Text mt-7">
+            Request your custom <br /> shopify store            </h1>
+            <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
             Fill out the form below to start your journey<br />
              towards a powerful, customized Shopify store.
             </p>
@@ -180,7 +180,7 @@ export default function Shopifydetails() {
     
           <h1 className="text-5xl font-bold text-black font-Text">Why Us?
           </h1>
-          <p className="text-neutral-600 text-xl font-Text mt-5">Why Choose Our Shopify Development Services?</p>
+          <p className="text-neutral-600 lowercase text-xl font-Text mt-5">Why Choose Our Shopify Development Services?</p>
           </div>
           <div className="block  mt-44 justify-center items-center text-center m-auto lg:flex  lg:justify-evenly lg:items-center lg:text-start lg:mt-44">
           
@@ -193,7 +193,7 @@ export default function Shopifydetails() {
 
 <h1 className="text-3xl font-Text font-medium text-black">Custom Design</h1>
 </div>
-<p className="text-neutral-600 text-xl font-Text mt-7">
+<p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
 Unique, responsive designs<br /> tailored to your brand and optimized for conversions.
             </p>
           </div>
@@ -207,7 +207,7 @@ Unique, responsive designs<br /> tailored to your brand and optimized for conver
 
 <h1 className="text-3xl font-Text font-medium text-black">Clean Code</h1>
 </div>
-<p className="text-neutral-600 text-xl font-Text mt-7">
+<p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
 Custom features and integrations<br /> to enhance your store's  <br />capabilities.
             </p>
           </div>
@@ -223,7 +223,7 @@ Custom features and integrations<br /> to enhance your store's  <br />capabiliti
 
 <h1 className="text-3xl font-Text font-medium text-black">Speed </h1>
 </div>
-<p className="text-neutral-600 text-xl font-Text mt-7">
+<p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
 Fast-loading, SEO-friendly store<br /> s for better user experience and search rankings            </p>
           </div>
           
@@ -237,7 +237,7 @@ Fast-loading, SEO-friendly store<br /> s for better user experience and search r
 
 <h1 className="text-3xl font-Text font-medium text-black">Ongoing Support</h1>
 </div>
-<p className="text-neutral-600 text-xl font-Text mt-7">
+<p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
 Dedicated assistance for updates<br /> maintenance, and future enhancements.
             </p>
           </div>
@@ -249,7 +249,7 @@ Dedicated assistance for updates<br /> maintenance, and future enhancements.
       >
         <div className=" mt-16  lg:block lg:text-start  lg:justify-start lg:items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
-          <p className="text-neutral-600 text-base font-Text mt-4">
+          <p className="text-neutral-600 lowercase text-base font-Text mt-4">
             Make Your Business More Famous By Designing A<br />
             Wonderful And Attractive Website With <br />
             The Help Of The Best <br />

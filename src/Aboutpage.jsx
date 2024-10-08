@@ -24,10 +24,10 @@ export default function Aboutpage() {
         className="ml-5 block text-start justify-start items-start mt-28 lg:ml-8"
         >
         <h1 className="text-4xl font-Text font-medium lg:text-6xl text-black">
-          Get To Know Us More
+          Get to know us more
         </h1>
-        <p className="text-neutral-600 text-xl font-Text mt-6">
-          Get To Know Us More, Gain More Trust In Us To Transform <br /> Your
+        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
+          Get To Know Us More, Gain More Trust In Us<br />  To Transform Your
           Idea Into A Real Website
         </p>
         <hr className="w-20 h-1 mt-7 bg-black  " />
@@ -40,12 +40,12 @@ export default function Aboutpage() {
           About Us
         </h1>
         <h5  data-aos="fade-up"
-        data-aos-duration="900" className="text-4xl font-Text font-semibold mt-7  text-black">
+        data-aos-duration="900" className="text-4xl lowercase font-Text font-semibold mt-7  text-black">
         Your One-Stop Front-End <br />Development  Solution
         </h5>
 
         <p  data-aos="fade-up"
-        data-aos-duration="900" className="text-neutral-600 text-lg font-Text mt-7">
+        data-aos-duration="900" className="text-neutral-600 lowercase text-lg font-Text mt-7">
           Our Platform Is Dedicated To Delivering High-Quality Front-End
           Development Services Tailored Specifically <br />
           To Your Needs. Whether You're A Startup, Small Business, Or Large
@@ -79,10 +79,10 @@ export default function Aboutpage() {
       </div>
       <div  data-aos="fade-up"
         data-aos-duration="900"
-        className=' w-11/12 m-auto h-full  p-16 rounded-3xl block justify-center items-center text-start mt-52 bg-black  lg:w-11/12 lg:m-auto lg:h-full  lg:p-16 lg:rounded-3xl lg:block lg:justify-center lg:items-center lg:text-start lg:mt-80 lg:bg-black'>
-      <h1 className="font-Text m-auto text-white  font-bold text-6xl">
-      Create Your Official Website<br /> Now!     </h1>
-          <p className="text-neutral-200 m-auto font-normal text-xl font-Text mt-7">
+        className='w-11/12 m-auto h-full  p-8 pb-20 rounded-3xl block justify-center items-center text-start mt-52 bg-black  lg:w-11/12 lg:m-auto lg:h-fit  lg:pl-8 lg:pb-20 lg:rounded-3xl lg:block lg:justify-center lg:items-center lg:text-start lg:mt-80 lg:bg-black'>
+      <h1 className="font-Text m-auto text-white  font-medium text-6xl">
+      Create your official website<br /> now!     </h1>
+          <p className="text-neutral-200 lowercase m-auto font-normal text-xl font-Text mt-7">
           Create An Attractive And Smooth Front-End <br />
            For Your Official Website With
             Codew          </p>
@@ -102,7 +102,7 @@ export default function Aboutpage() {
       >
         <div className=" mt-16  lg:block lg:text-start  lg:justify-start lg:items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
-          <p className="text-neutral-600 text-base font-Text mt-4">
+          <p className="text-neutral-600 lowercase text-base font-Text mt-4">
             Make Your Business More Famous By Designing A<br />
             Wonderful And Attractive Website With <br />
             The Help Of The Best <br />

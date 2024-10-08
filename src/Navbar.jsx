@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,12 +15,14 @@ const Navbar = () => {
         <div className="flex items-center justify-between text-center m-auto mt-5 h-16">
           <div className="flex items-center justify-center">
             <div className="flex-shrink-0">
-            <Link
-            to="/Homepage"
-className='font-Text text-4xl text-gray-950 font-medium '            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          >
-            Codew
-          </Link>            </div>
+              <Link
+                to="/Homepage"
+                className="font-Text text-4xl text-gray-950 font-medium ml-5 lg:ml-2"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
+                Codew
+              </Link>{" "}
+            </div>
           </div>
           <div className="">
             <button
@@ -30,12 +32,36 @@ className='font-Text text-4xl text-gray-950 font-medium '            onClick={()
             >
               <span className="sr-only">Open main menu</span>
               {!isOpen ? (
-                <svg className="block h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                <svg
+                  className="block h-8 w-8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
                 </svg>
               ) : (
-                <svg className="block h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                <svg
+                  className="block h-8 w-8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
                 </svg>
               )}
             </button>
@@ -44,7 +70,7 @@ className='font-Text text-4xl text-gray-950 font-medium '            onClick={()
       </div>
 
       {isOpen && (
-        <div className="bg-black w-11/12 m-auto mt-6 text-center rounded-lg ">
+        <div className="bg-black w-11/12 m-auto mt-6 text-center rounded ">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
               to="/Homepage"

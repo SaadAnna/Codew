@@ -26,15 +26,15 @@ export default function Homepage() {
         className="ml-5 block text-start justify-start items-start mt-28 lg:ml-8"
       >
         <h1 className="text-4xl font-Text font-medium lg:text-6xl text-black">
-          Unleash And Advance Your <br /> Business Or Project To The <br />
-          Furthest Limits Possibilitie <br />
-          With Codew
+          Unleash and advance your <br /> business or project to the <br />
+          furthest limits possibilitie <br />
+          with codew
         </h1>
-        <p className="text-neutral-600 text-xl font-Text mt-6">
-          Our Responsive Customizable Website Templates Help
-          <br /> You Create A Professional Modern Website That
-          <br /> Showcases Your Brand And Engages
-          <br /> Your Audience.
+        <p className="text-neutral-600 text-lg font-Text mt-6">
+          our responsive customizable website templates help
+           you create<br /> a professional modern website that
+         showcases your brand   <br />and engages
+          your audience.
         </p>
         <Link
           to="/Choseservice"
@@ -47,14 +47,14 @@ export default function Homepage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="ml-5 block text-start justify-start items-start mt-44 lg:ml-8"
+        className="ml-5 block text-start justify-start items-start mt-72 lg:ml-8"
       >
-        <h1 className="text-4xl font-Text font-medium lg:text-5xl text-black">
-          Our Services
+        <h1 className="text-5xl font-Text font-medium lg:text-5xl text-black">
+          Our services
         </h1>
-        <p className="text-lg text-neutral-600 lg:text-xl font-Text mt-4">
-          Web Design And Development Services To <br /> Meet Your Business
-          Needs.
+        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-4">
+          web design and development services to <br /> meet your business
+          needs.
         </p>
       </div>
       <div
@@ -74,10 +74,10 @@ export default function Homepage() {
           <h1 className="font-Text text-xl text-black mt-3 font-medium">
             Website Programming
           </h1>
-          <p className="font-Text font-normal text-lg text-neutral-600 mt-3">
-            Our Company Designs And Programs <br />
-            The Front-End Of Websites With High <br /> Accuracy, Excellent
-            Quality, And <br /> Fantastic Prices.
+        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-4">
+            our company designs and programs <br />
+            the front-end of websites with high <br /> accuracy, excellent
+            quality, and <br /> fantastic prices.
           </p>
         </div>
         <div className=" m-auto  w-10/12 cursor-pointer border border-neutral-200 rounded-2xl border-solid  block justify-center items-center text-start mt-20 pt-5 pb-5 pl-3 pr-3 lg:w-80 lg:h-80 lg:pl-4 lg:pr-4 lg:pb-8 lg:pt-8 lg:cursor-pointer lg:border lg:border-neutral-200 lg:rounded-2xl lg:border-solid  lg:block lg:justify-center lg:items-center lg:text-start">
@@ -92,11 +92,11 @@ export default function Homepage() {
           <h1 className="font-Text text-xl text-black mt-3 font-medium">
             Graphic Design
           </h1>
-          <p className="font-Text font-normal text-lg text-neutral-600 mt-3">
-            In Addition To Website Programming <br />
-            Our Company Also Pre-Designs <br />
-            The Front-End Of Your <br />
-            Website.
+          <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-4">
+          in addition to website programming <br />
+            our company also pre-designs <br />
+            the front-end of your <br />
+            website.
           </p>
         </div>
         <div className="m-auto  w-10/12 cursor-pointer border border-neutral-200 rounded-2xl border-solid  block justify-center items-center text-start mt-20 pt-5 pb-5 pl-3 pr-3 lg:w-80 lg:h-80 lg:pl-4 lg:pr-4 lg:pb-8 lg:pt-8 lg:cursor-pointer lg:border lg:border-neutral-200 lg:rounded-2xl lg:border-solid  lg:block lg:justify-center lg:items-center lg:text-start">
@@ -111,12 +111,12 @@ export default function Homepage() {
           <h1 className="font-Text text-xl text-black mt-3 font-medium">
             IT Support
           </h1>
-          <p className="font-Text font-normal text-lg text-neutral-600 mt-3">
-            Our IT Support Team Is Available <br />
-            24/7 To Help You With Any Technical
+          <p className="font-Text  text-lg text-neutral-600 mt-3">
+            our IT Support team is available <br />
+            24/7 to help you with any technical
             <br />
-            Issues Or Questions You <br />
-            May Have.
+            issues or questions you <br />
+            may have.
           </p>
         </div>
       </div>
@@ -133,8 +133,8 @@ export default function Homepage() {
           Front-End 
           </h1>
           <p className="text-neutral-600 text-lg font-Text mt-6"> 
-          At Codew We Specialize In Building Visually Stunning<br />
-          And Highly Performant Web Applications.
+          at codew we specialize in building visually stunning<br />
+          and highly performant web applications.
           </p>
           <Link
             to="/Choseservice"
@@ -153,14 +153,14 @@ export default function Homepage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="ml-5 block text-start justify-start items-start mt-28 lg:ml-8"
+        className="ml-5 block text-start justify-start items-start mt-72 lg:ml-8"
       >
         <h1 className="text-4xl font-Text font-medium lg:text-5xl text-black">
-          Our Projects
+          our projects
         </h1>
-        <p className="text-lg text-neutral-600 lg:text-xl font-Text mt-4">
-          Check Out Some Of Our Latest Work And
-          <br /> See How We Can Help Bring Your Vision To Life.
+        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
+          check out some of our latest work and
+          <br /> see how we can help bring your vision to life.
         </p>
       </div>
       <div
@@ -174,28 +174,28 @@ export default function Homepage() {
          className="block  m-auto rounded-lg text-start justify-start w-3/4 p-2 cursor-pointer border border-solid border-neutral-200 lg:block lg:rounded-lg lg:text-start lg:justify-start lg:w-96 lg:h-full lg:mt-10 lg:p-2 lg:cursor-pointer lg:border lg:border-solid lg:border-neutral-200">
           <img className="w-11/12 lg:w-full m-auto h-72 rounded-lg" src={FisrtProjectImage} />
           <h1 className="text-3xl font-Text font-medium mt-3 text-black">
-            Travel Website
+            Travel website
           </h1>
           <p className="text-neutral-600 text-lg font-Text mt-4">
-            Front-End Website For Remote Travel Where You Can Book
-            Accommodation, Food And Also <br />
-            Flights To And Airport
+            front-end website for remote travel where you can book
+            accommodation, food and also <br />
+            flights to and airport
             <br />
-            From Anywhere In <br />
-            The World
+            from anywhere in <br />
+            the world
           </p>
         </div>
         <div         data-aos="fade-up"
         data-aos-duration="900" className="block m-auto mt-10  rounded-lg text-start justify-start w-3/4 p-2 cursor-pointer border border-solid border-neutral-200 lg:block lg:rounded-lg lg:text-start lg:justify-start lg:w-96 lg:h-full lg:pb-16 lg:p-2 lg:cursor-pointer lg:border lg:border-solid lg:border-neutral-200">
           <img className="w-11/12 m-auto box-border   lg:w-full h-72 rounded-lg" src={SecondProjectImage} />
           <h1 className="text-3xl font-Text font-medium mt-3 text-black">
-            Order Website
+            Order website
           </h1>
           <p className="text-neutral-600 text-lg font-Text mt-4">
-            A Company Website Through Which You <br />
-            Can Order Anything You See From Any <br />
-            Store And Anywhere In The <br />
-            World.
+            a company website through which you <br />
+            can order anything you see from any <br />
+            store and anywhere in the <br />
+            world.
           </p>
         </div>
       </div>
@@ -215,14 +215,14 @@ export default function Homepage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="ml-5 block text-start justify-start items-start mt-28 lg:ml-8"
+        className="ml-5 block text-start justify-start items-start mt-72 lg:ml-8"
       >
         <h1 className="text-4xl font-Text font-medium lg:text-5xl text-black">
-          What Our Customers Say
+          What our customers say
         </h1>
-        <p className="text-lg text-neutral-600 lg:text-xl font-Text mt-4">
-          Hear From Our Satisfied Customers About Their Experience
-          <br /> With Our Services.
+        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
+          hear from our satisfied customers about their experience
+          <br /> with our services.
         </p>
       </div>
       <div
@@ -230,7 +230,7 @@ export default function Homepage() {
         data-aos-duration="900"
         className=" block m-auto justify-center items-center  lg:flex lg:justify-around lg:items-center lg:text-center lg:mt-32"
       >
-        <div className="  w-10/12 block p-3 cursor-pointer text-start m-auto mt-10 rounded-lg gap-2 lg:w-96 lg:h-fit border border-solid border-neutral-200">
+        <div className="  w-10/12 block p-3 cursor-pointer text-start m-auto mt-10 rounded-lg gap-2 lg:w-96 lg:h-96 border border-solid border-neutral-200">
           <img className="w-16 h-16 rounded-full" src={FirstCoustmer} />
           <div className="flex gap-1 mt-4">
             <svg
@@ -267,18 +267,18 @@ export default function Homepage() {
             </svg>
           </div>
           <h1 className="text-3xl font-Text font-medium mt-3 text-black">
-            Mike Sendler
+            Mike sendler
           </h1>
           <p className="text-neutral-600 text-lg font-Text mt-4">
-            I Liked The Way Codew Team Dealt With Me. They Were Always Available{" "}
+            i liked the way codew team dealt with me. they were always available{" "}
             <br />
-            To Communicate And Modify According To My Requests. The Final Design
+            to communicate and modify according to my requests. the final design
             <br />
-            Was Smooth And Responsive
+            was smooth and <br /> responsive
           </p>
         </div>
 
-        <div className="  w-10/12 block p-3 text-start cursor-pointer m-auto mt-10 rounded-lg gap-2 lg:w-96 lg:h-fit border border-solid border-neutral-200">
+        <div className="  w-10/12 block p-3 text-start cursor-pointer m-auto mt-10 rounded-lg gap-2 lg:w-96 lg:h-96 border border-solid border-neutral-200">
           <img className="w-16 h-16 rounded-full" src={ThirdCoustmer} />
           <div className="flex gap-1 mt-4">
             <svg
@@ -323,16 +323,16 @@ export default function Homepage() {
             </svg>
           </div>
           <h1 className="text-3xl font-Text font-medium mt-3 text-black">
-            Melissa Miner
+            Melissa miner
           </h1>
 
           <p className="text-neutral-600 text-lg font-Text mt-4">
-            Codew Provided A Great Service In Terms Of Design And Communication.
+            codew provided a great service in terms of design and communication.
             <br />
-            I Expected More Innovation In Some Aspects, But Overall <br />
-            I Am Satisfied With
+            i expected more innovation in some aspects, but overall <br />
+            i am satisfied with
             <br />
-            The Results.
+            the results.
           </p>
         </div>
       </div>
@@ -344,8 +344,8 @@ export default function Homepage() {
         <div className=" mt-10  lg:block lg:text-start  lg:justify-start lg:items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
           <p className="text-neutral-600 text-base font-Text mt-4">
-          Make Your Business More Famous By <br /> Designing A
-          Wonderful And Attractive <br />Website With Codew.
+          make your business more famous by <br /> designing a
+          wonderful and attractive <br />website with codew.
           </p>
           <div className="flex gap-2 mt-3">
             <a href="#">

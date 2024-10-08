@@ -28,10 +28,9 @@ export default function Workpage() {
         className="ml-5 block text-start justify-start items-start mt-28 lg:ml-8"
          >
         <h1 className="text-4xl font-Text font-medium lg:text-5xl text-black">
-        Our Portfolio Of Cutting-Edge <br /> Web Projects
-
+        Innovative web solutions for <br /> modern businesses
         </h1>
-        <p className="text-neutral-600 text-xl font-Text mt-6">
+        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
         Explore Our Showcase Of Bespoke Front-End<br /> Development Projects.         </p>
         <Link
             to="/Aboutpage"
@@ -49,7 +48,7 @@ export default function Workpage() {
       <img className='w-96 h-80 m-auto rounded-sm '  src={FisrtProjectImage}/>
       <h1 className="text-3xl font-Text font-medium mt-3 text-black">Travel Website
       </h1>
-      <p className="text-neutral-600 text-lg font-Text mt-4">
+      <p className="text-neutral-600 lowercase text-lg font-Text mt-4">
       Front-End Website For Remote Travel Where You Can Book<br />
        Accommodation, Food And Also <br />
        Flights To And Airport<br />
@@ -69,7 +68,7 @@ export default function Workpage() {
       <img className='w-96 h-80 rounded-sm m-auto'  src={SecondProjectImage}/>
       <h1 className="text-3xl font-Text font-medium mt-3 text-black">Order Website
       </h1>
-      <p className="text-neutral-600 text-lg font-Text mt-4">
+      <p className="text-neutral-600 lowercase text-lg font-Text mt-4">
       A Company Website Through Which You <br />
        Can Order Anything You See From Any <br />
         Store And Anywhere In The <br />
@@ -91,7 +90,7 @@ export default function Workpage() {
       <img className='w-96 h-80 rounded-sm m-auto'  src={ThirdProjectImage}/>
       <h1 className="text-3xl font-Text font-medium mt-3 text-black">Gym Website
       </h1>
-      <p className="text-neutral-600 text-xl font-Text mt-4">
+      <p className="text-neutral-600 lowercase text-xl font-Text mt-4">
       A Gym Website Where You Can Work Out On <br />Your Own 
        With A Personal Trainer Or Even Order <br />
        Anything Related To Sports From <br />
@@ -108,7 +107,7 @@ export default function Workpage() {
       <img className='w-96 h-80 rounded-sm m-auto'  src={FourthProjectImage}/>
       <h1 className="text-3xl font-Text font-medium mt-3 text-black"> Natural Website
       </h1>
-      <p className="text-neutral-600 text-xl font-Text mt-4">
+      <p className="text-neutral-600 lowercase text-xl font-Text mt-4">
       A Site To Buy And Order Everything Related To Plants And Natural Products <br />
        That Are Harvested Directly From Nature And <br />
         Sold On This Site With <br />
@@ -128,7 +127,7 @@ export default function Workpage() {
       <img className='w-96 h-80 rounded-sm m-auto'  src={FifthProjectImage}/>
       <h1 className="text-3xl font-Text font-medium mt-3 text-black">POD Website
       </h1>
-      <p className="text-neutral-600 text-xl font-Text mt-4">
+      <p className="text-neutral-600 lowercase text-xl font-Text mt-4">
       A Website For Printing On Demand For All The Products That The <br />
        Customer Wants, And Also With The Designs That The  <br />
        Customer Chooses, With High Quality <br />
@@ -143,12 +142,12 @@ export default function Workpage() {
       </div>
       <div data-aos="fade-up"
         data-aos-duration="900"
-         className=' w-11/12 m-auto h-full  p-16 rounded-3xl block justify-center items-center text-start mt-52 bg-black  lg:w-11/12 lg:m-auto lg:h-full  lg:p-16 lg:rounded-3xl lg:block lg:justify-center lg:items-center lg:text-start lg:mt-80 lg:bg-black'>
+         className='w-11/12 m-auto h-full  p-8 pb-20 rounded-3xl block justify-center items-center text-start mt-52 bg-black  lg:w-11/12 lg:m-auto lg:h-fit  lg:pl-8 lg:pb-20 lg:rounded-3xl lg:block lg:justify-center lg:items-center lg:text-start lg:mt-80 lg:bg-black'>
 
 
       <h1 className='font-Text text-white text-6xl font-medium lg:font-Text lg:text-white lg:text-6xl lg:font-medium'>
-      Let's Turn Your Idea Into  <br />A Website.      </h1>
-      <p className='text-neutral-200 mt-10 text-xl font-medium font-Text'>
+      Let's turn your idea into  <br />a website.      </h1>
+      <p className='text-neutral-200 lowercase mt-10 text-xl font-medium font-Text'>
       You Can Now Transform Any Idea In Your Mind Into A Real Website Front-End <br /> With High Quality And Design With Codew.     </p>
       <Link
             to="/Choseservice"
@@ -166,7 +165,7 @@ export default function Workpage() {
       >
         <div className=" mt-16  lg:block lg:text-start  lg:justify-start lg:items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
-          <p className="text-neutral-600 text-base font-Text mt-4">
+          <p className="text-neutral-600 lowercase text-base font-Text mt-4">
             Make Your Business More Famous By Designing A<br />
             Wonderful And Attractive Website With <br />
             The Help Of The Best <br />

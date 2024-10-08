@@ -51,7 +51,7 @@ Welocome To Codew!
       >
         <div className=" mt-16  lg:block lg:text-start  lg:justify-start lg:items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
-          <p className="text-neutral-600 text-base font-Text mt-4">
+          <p className="text-neutral-600 lowercase text-base font-Text mt-4">
             Make Your Business More Famous By Designing A<br />
             Wonderful And Attractive Website With <br />
             The Help Of The Best <br />

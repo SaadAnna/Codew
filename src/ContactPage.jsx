@@ -43,10 +43,10 @@ export default function Contactpage() {
         className="ml-5 block text-start justify-start items-start mt-28 lg:ml-8"
          >
         <h1 className="text-4xl font-Text font-medium lg:text-6xl text-black">
-          Let's Collaborate
+          Let's collaborate
         </h1>
-        <p className="text-neutral-600 text-xl font-Text mt-6">
-          Let’s Partner Together to Create Engaging Web Interfaces <br />{" "}
+        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
+          Let’s Partner Together to Create Engaging Web<br /> Interfaces {" "}
           Contact Us Now!{" "}
         </p>
         <Link
@@ -64,7 +64,7 @@ export default function Contactpage() {
           <h1 className="text-5xl font-Text font-medium text-black lg:text-7xl lg:font-Text lg:font-medium lg:text-black">
             Get In Touch.
           </h1>
-          <p className=" text-center text-lg text-neutral-600 lg:text-xl font-Text mt-6">
+          <p className=" text-center lowercase text-lg text-neutral-600 lg:text-xl font-Text mt-6">
           Feel Free To Contact Us
           To Discuss <br /> Your Project
           </p>
@@ -159,7 +159,7 @@ export default function Contactpage() {
       >
         <div className=" mt-16  lg:block lg:text-start  lg:justify-start lg:items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
-          <p className="text-neutral-600 text-base font-Text mt-4">
+          <p className="text-neutral-600 lowercase text-base font-Text mt-4">
             Make Your Business More Famous By Designing A<br />
             Wonderful And Attractive Website With <br />
             The Help Of The Best <br />

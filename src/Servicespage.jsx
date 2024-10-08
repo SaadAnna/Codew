@@ -22,10 +22,10 @@ export default function Servicespage(){
      className="ml-5 block text-start justify-start items-start mt-28 lg:ml-8"
      >
         <h1 className="text-4xl font-Text font-medium lg:text-6xl text-black">
-        Front-end Development <br /> Services
+        Front-end development <br /> services
         </h1>
-        <p className="text-neutral-600 text-xl font-Text mt-7">
-        We create stunning, responsive, and high-performance front-end<br /> solutions tailored to your business needs.
+        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
+        We create stunning, responsive, and  high-performance<br /> front-end solutions tailored to your business needs.
         </p>
      
 <hr className="w-20 h-1 mt-7  bg-black" />
@@ -33,11 +33,11 @@ export default function Servicespage(){
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="ml-5 block text-start justify-start items-start mt-44 lg:ml-8"
+        className="ml-5 block text-start justify-start items-start mt-72 lg:ml-8"
       >
-        <h1 className="text-4xl font-Text font-medium lg:text-5xl text-black">
-        Our Expertise        </h1>
-        <p className="text-lg text-neutral-600 lg:text-xl font-Text mt-4">
+        <h1 className="text-4xl  font-Text font-medium lg:text-5xl text-black">
+        Our expertise        </h1>
+        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
         Our most important experience in the <br /> field of front-end design
         </p>
       </div>
@@ -145,8 +145,8 @@ export default function Servicespage(){
         className="ml-5 block text-start justify-start items-start mt-44 lg:ml-8"
       >
         <h1 className="text-4xl font-Text font-medium lg:text-5xl text-black">
-        Our Services        </h1>
-        <p className="text-lg text-neutral-600 lg:text-xl font-Text mt-4"> 
+        Our services        </h1>
+        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
         We provide our services with high quality<br />  ratings and reasonable prices.        </p>
       </div>
       <div  className=" block justify-center items-center mt-24 text-center m-auto  lg:flex lg:justify-evenly lg:m-auto lg:mt-32 lg:items-center">
@@ -158,7 +158,7 @@ export default function Servicespage(){
 </svg>
 <h1 className="font-Text font-bold text-xl mt-4 text-black">UI/UX Design
 </h1>
-<p className="text-neutral-600 font-normal text-lg font-Text mt-11">
+<p className="text-neutral-600 lowercase font-normal text-lg font-Text mt-11">
 Create Intuitive And Visually Appealing User Interfaces <br />That Enhance User Experience.
 </p>
 
@@ -171,7 +171,7 @@ Create Intuitive And Visually Appealing User Interfaces <br />That Enhance User 
 
 <h1 className="font-Text font-bold text-xl mt-4 text-black">Front-End development
 </h1>
-<p className="text-neutral-600 font-normal text-lg font-Text mt-11">
+<p className="text-neutral-600 lowercase font-normal text-lg font-Text mt-11">
 Build Responsive And Interactive Web Applications<br /> Using Modern Front-End Technologies.</p>
 
       </div>
@@ -188,7 +188,7 @@ Build Responsive And Interactive Web Applications<br /> Using Modern Front-End T
 
 <h1 className="font-Text font-bold text-xl mt-4 text-black">Performance Optimization
 </h1>
-<p className="text-neutral-600 font-normal text-lg font-Text mt-11">
+<p className="text-neutral-600 lowercase font-normal text-lg font-Text mt-11">
 Optimize Your Web Applications For Speed And Efficiency<br /> To Improve User Satisfaction And SEO.</p>
 
       </div>
@@ -202,7 +202,7 @@ Optimize Your Web Applications For Speed And Efficiency<br /> To Improve User Sa
 
 <h1 className="font-Text font-bold text-xl mt-4 text-black">Shopify App Development 
 </h1>
-<p className="text-neutral-600 font-normal text-lg font-Text mt-11">
+<p className="text-neutral-600 lowercase font-normal text-lg font-Text mt-11">
 Development Shopify Applications and Stores with High-Quality<br /> 
  And Add E-commerce Features To Your Store For Better Performance And Speed</p>
 
@@ -224,8 +224,8 @@ Development Shopify Applications and Stores with High-Quality<br />
         className="ml-5 block text-start justify-start items-start mt-52 lg:ml-8"
       >
         <h1 className="text-4xl font-Text font-medium lg:text-5xl text-black">
-        Our Process       </h1>
-        <p className="text-lg text-neutral-600 lg:text-xl font-Text mt-4">
+        Our process       </h1>
+        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
         The processes we take to create your website with <br />  the best possible quality                </p>
       </div>
     
@@ -240,7 +240,7 @@ Development Shopify Applications and Stores with High-Quality<br />
 </div>
 <h1 className="text-black  font-Text font-bold text-2xl">Search
 </h1>
-<p className="text-neutral-600 font-normal text-base font-Text mt-1">
+<p className="text-neutral-600 font-normal lowercase text-base font-Text mt-1">
 We Analyze Your Needs And <br />Project Requirements.
 </p>
 
@@ -255,7 +255,7 @@ We Analyze Your Needs And <br />Project Requirements.
 </div>
 <h1 className="text-black  font-Text font-bold text-2xl">Design
 </h1>
-<p className="text-neutral-600 font-normal text-base font-Text mt-1">
+<p className="text-neutral-600 font-normal lowercase text-base font-Text mt-1">
 Our Team Creates Intuitive And <br />Appealing UI/UX Designs.
 </p>
 
@@ -271,7 +271,7 @@ Our Team Creates Intuitive And <br />Appealing UI/UX Designs.
 </div>
 <h1 className="text-black  font-Text font-bold text-2xl">Development
 </h1>
-<p className="text-neutral-600 font-normal text-base font-Text mt-1">
+<p className="text-neutral-600 font-normal lowercase text-base font-Text mt-1">
 We Build Your Front-End Using <br />Cutting-Edge Technologies.
 </p>
 
@@ -288,7 +288,7 @@ We Build Your Front-End Using <br />Cutting-Edge Technologies.
 </div>
 <h1 className="text-black  font-Text font-bold text-2xl">Testing
 </h1>
-<p className="text-neutral-600 font-normal text-base font-Text mt-1"> 
+<p className="text-neutral-600 font-normal lowercase text-base font-Text mt-1"> 
 Rigorous Testing Ensures A Bug-Free<br /> And Smooth User Experience.
 </p>
 
@@ -307,7 +307,7 @@ Rigorous Testing Ensures A Bug-Free<br /> And Smooth User Experience.
 <h1 className="text-black  font-Text font-bold text-2xl">Deployment
 
 </h1>
-<p className="text-neutral-600 font-normal text-base font-Text mt-1"> 
+<p className="text-neutral-600 font-normal lowercase text-base font-Text mt-1"> 
 We Launch Your Project Using <br />Efficient Deployment Strategies.
 </p>
 
@@ -327,7 +327,7 @@ We Launch Your Project Using <br />Efficient Deployment Strategies.
 <h1 className="text-black  font-Text font-bold text-2xl">Maintenance
 
 </h1>
-<p className="text-neutral-600 font-normal text-base font-Text mt-1">
+<p className="text-neutral-600 font-normal lowercase text-base font-Text mt-1">
 Ongoing Support And Updates Keep <br /> Your Project Running Smoothly.
 </p>
 
@@ -339,7 +339,7 @@ Ongoing Support And Updates Keep <br /> Your Project Running Smoothly.
       <h1 className="font-Text text-black mt-3 font-bold text-5xl">
       Ready to elevate your front-end?
       </h1>
-          <p className="text-neutral-600 font-normal text-lg font-Text mt-11">
+          <p className="text-neutral-600 font-normal lowercase text-lg font-Text mt-11">
           Lets discuss how we can help bring your vision  <br /> to life with cutting-edge front-end development.
           </p>
           <Link
@@ -358,7 +358,7 @@ Ongoing Support And Updates Keep <br /> Your Project Running Smoothly.
       >
         <div className=" mt-16  lg:block lg:text-start  lg:justify-start lg:items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
-          <p className="text-neutral-600 text-base font-Text mt-4">
+          <p className="text-neutral-600 lowercase text-base font-Text mt-4">
             Make Your Business More Famous By Designing A<br />
             Wonderful And Attractive Website With <br />
             The Help Of The Best <br />
