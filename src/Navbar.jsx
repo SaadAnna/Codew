@@ -11,21 +11,20 @@ const Navbar = () => {
 
   return (
     <nav className="bg-transparent">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="flex justify-between items-center text-start mt-10">
-        <div className="flex items-center">
-          <div className="flex-shrink-0">
-            <Link
-              to="/Homepage"
-              className="text-4xl font-Text font-medium m-auto lg:text-4xl text-black md:ml-5"
-              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            >
-              Codew
-            </Link>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center text-start mt-10">
+          <div className="flex items-center">
+            <div className="flex-shrink-0">
+              <Link
+                to="/Homepage"
+                className="text-4xl font-Text font-medium m-auto lg:text-4xl text-black md:ml-5"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
+                Codew
+              </Link>
+            </div>
           </div>
-        </div>
-  
-  
+
           <div className="">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -72,34 +71,33 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="bg-black w-11/12 m-auto mt-6 text-center rounded ">
+        <div className="bg-black w-11/12 m-auto mt-6 text-center rounded">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
               to="/Homepage"
               className="text-white font-Text block px-3 py-2 rounded-md text-base font-medium"
-              onClick={handleLinkClick} // Close menu when clicked
+              onClick={handleLinkClick}
             >
               Home
             </Link>
             <Link
               to="/Servicespage"
               className="text-white font-Text block px-3 py-2 rounded-md text-base font-medium"
-              onClick={handleLinkClick} // Close menu when clicked
+              onClick={handleLinkClick}
             >
               Services
             </Link>
-          
             <Link
               to="/Contactpage"
               className="text-white font-Text block px-3 py-2 rounded-md text-base font-medium"
-              onClick={handleLinkClick} // Close menu when clicked
+              onClick={handleLinkClick}
             >
               Contact Us
             </Link>
             <Link
               to="/Aboutpage"
               className="text-white font-Text block px-3 py-2 rounded-md text-base font-medium"
-              onClick={handleLinkClick} // Close menu when clicked
+              onClick={handleLinkClick}
             >
               About Us
             </Link>
