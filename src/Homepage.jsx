@@ -59,7 +59,7 @@ export default function Homepage() {
           Share your project. We handle the rest.
         </p>
       </div>
-      <div className="block justify-center items-center text-center mt-20  lg:flex lg:justify-evenly lg:items-center lg:text-center lg:mt-24">
+      <div className="flex flex-wrap justify-center mt-32 items-center text-center  gap-20">
         <div
           data-aos="fade-up"
           data-aos-duration="900"

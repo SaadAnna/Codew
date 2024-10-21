@@ -97,7 +97,7 @@ export default function Contactpage() {
               </label>
               <input
                 placeholder="Last Name"
-                className="w-full h-9 font-Text font-normal text-base pl-8 text-neutral-900 border border-solid border-neutral-200 rounded-lg    focus:outline-none focus:border-black lg:w-56 lg:h-9 lg:font-Text lg:font-normal lg:placeholder:text-base lg:text-base lg:pl-2 lg:text-neutral-900 lg:border lg:border-solid lg:border-neutral-200 lg:mt-2 lg:focus:outline-none   lg:focus:border-black lg:rounded-lg"
+                className="w-full h-9 font-Text font-normal text-base pl-2 text-neutral-900 border border-solid border-neutral-200 rounded-lg    focus:outline-none focus:border-black lg:w-56 lg:h-9 lg:font-Text lg:font-normal lg:placeholder:text-base lg:text-base lg:pl-2 lg:text-neutral-900 lg:border lg:border-solid lg:border-neutral-200 lg:mt-2 lg:focus:outline-none   lg:focus:border-black lg:rounded-lg"
                 type="text"
                 name="last_name"
                 required
