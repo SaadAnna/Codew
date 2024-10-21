@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-transparent">
-    <div className="m-auto md:ml-5 ml-5">
+    <div className="md:ml-7 ml-5">
       <div className="flex justify-between items-center text-start mt-10">
         <div className="flex items-center">
           <div className="flex-shrink-0">
@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text- mr-10"
+              className="inline-flex items-center justify-center p-2 rounded-md text-black"
               aria-expanded={isOpen ? "true" : "false"}
             >
               <span className="sr-only">Open main menu</span>
