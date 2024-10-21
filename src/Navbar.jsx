@@ -11,23 +11,25 @@ const Navbar = () => {
 
   return (
     <nav className="bg-transparent">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between text-center m-auto mt-5 h-16">
-          <div className="flex items-center justify-center">
-            <div className="flex-shrink-0">
-              <Link
-                to="/Homepage"
-                className="font-Text text-4xl text-gray-950 font-medium ml-5 lg:ml-2"
-                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              >
-                Codew
-              </Link>{" "}
-            </div>
+    <div className="m-auto md:ml-5 ml-5">
+      <div className="flex justify-between items-center text-start mt-10">
+        <div className="flex items-center">
+          <div className="flex-shrink-0">
+            <Link
+              to="/Homepage"
+              className="text-4xl font-Text font-medium m-auto lg:text-4xl text-black md:ml-5"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
+              Codew
+            </Link>
           </div>
+        </div>
+  
+  
           <div className="">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-black"
+              className="inline-flex items-center justify-center p-2 rounded-md text- mr-10"
               aria-expanded={isOpen ? "true" : "false"}
             >
               <span className="sr-only">Open main menu</span>
@@ -86,13 +88,7 @@ const Navbar = () => {
             >
               Services
             </Link>
-            <Link
-              to="/Workpage"
-              className="text-white font-Text block px-3 py-2 rounded-md text-base font-medium"
-              onClick={handleLinkClick} // Close menu when clicked
-            >
-              Work
-            </Link>
+          
             <Link
               to="/Contactpage"
               className="text-white font-Text block px-3 py-2 rounded-md text-base font-medium"

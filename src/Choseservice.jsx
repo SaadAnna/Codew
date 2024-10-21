@@ -14,7 +14,7 @@ export default function Choseservice() {
         <>
             <Helmet>
                 
-                <title>Codew - Chose Service</title>
+                <title>Codew | Chose Service</title>
                 
             </Helmet>
         <div  data-aos="fade-up"
@@ -47,15 +47,14 @@ Welocome To Codew!
         <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  block mt-56 text-start ml-4 lg:flex lg:justify-between lg:items-center lg:text-center lg:mt-72 lg:ml-8"
+        className="  block mt-56 text-start ml-8 md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-14"
       >
-        <div className=" mt-16  lg:block lg:text-start  lg:justify-start lg:items-start">
+        <div className=" mt-9  flex flex-col text-center justify-start items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
-          <p className="text-neutral-600 lowercase text-base font-Text mt-4">
-            Make Your Business More Famous By Designing A<br />
-            Wonderful And Attractive Website With <br />
-            The Help Of The Best <br />
-            Company Codew.
+          <p className="text-neutral-600 text-start text-base font-Text mt-4">
+            make your business more famous by <br /> designing a wonderful and
+            attractive <br />
+            website with codew.
           </p>
           <div className="flex gap-2 mt-3">
             <a href="#">
@@ -91,8 +90,8 @@ Welocome To Codew!
             </a>
           </div>
         </div>
-        <div className=" mt-16 lg:block lg:text-start lg:justify-start lg:items-start">
-          <h1 className="text-2xlxl font-Text font-medium  text-black">
+        <div className=" mt-16 flex flex-col text-start justify-start items-start">
+          <h1 className="text-xl font-Text font-medium  text-black">
             Quick Links
           </h1>
           <ul>
@@ -112,11 +111,11 @@ Welocome To Codew!
                 Services
               </Link>
               <Link
-                to="/Workpage"
+                to="/Aboutpage"
                 className=" text-neutral-600 hover:text-black  text-base font-Text mt-4 block lg:text-neutral-600 lg:text-base lg:font-Text lg:mt-4 lg:block lg:hover:text-black"
                 onClick={handleClick}
               >
-                Work
+                About Us
               </Link>
               <Link
                 to="/Contactpage"
@@ -128,14 +127,13 @@ Welocome To Codew!
             </li>
           </ul>
         </div>
-        <div className=" mt-14  mr-14 lg:block lg:text-start lg:mr-14 lg:justify-start lg:items-start">
-          <h1 className="text-2xlxl font-Text font-medium  text-black">
-            Contact
-          </h1>
+        <div className=" mt-16  mr-14 flex flex-col text-start  justify-start items-start">
+          <h1 className="text-xl font-Text font-medium  text-black">Contact</h1>
           <ul>
             <li>
               <a
-                href="#"
+                target="_blank"
+                href="https://x.com/CodewFront_end"
                 className=" text-neutral-600 hover:text-black  text-base font-Text mt-4 block lg:text-neutral-600 lg:text-base lg:font-Text lg:mt-4 lg:block lg:hover:text-black"
               >
                 Twitter
@@ -162,12 +160,12 @@ Welocome To Codew!
           </ul>
         </div>
       </div>
-      <hr className="w-11/12 mt-14 bg-gray-200  m-auto " />
-      <div className=" mt-14 pb-10 text-center  block justify-start items-start lg:pb-10 lg:flex lg:justify-between lg:items-start lg:mt-14 lg:m-auto">
-        <h3 className=" text-neutral-600   text-base font-Text block lg:ml-10 lg:text-neutral-600 lg:text-base lg:font-Text ">
+      <hr className="w-11/12 mt-14 bg-neutral-200  m-auto " />
+      <div className=" mt-14 pb-10   text-center  block justify-start items-start lg:pb-10 lg:flex lg:justify-between lg:items-start lg:mt-14 lg:m-auto">
+        <h3 className=" text-neutral-600 text-base font-Text block lg:ml-14 lg:text-neutral-600 lg:text-base lg:font-Text ">
           Build By Codew.
         </h3>
-        <h3 className=" text-neutral-600  text-base font-Text block lg:mr-10 lg:text-neutral-600 lg:text-base lg:font-Text ">
+        <h3 className=" text-neutral-600    text-base font-Text block lg:mr-10 lg:text-neutral-600 lg:text-base lg:font-Text ">
           Copyright © 2024 Codew App Company.
         </h3>
       </div>

@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 /* eslint-disable react/no-unescaped-entities */
-export default function Aboutpage() {
+import FisrtProjectImage from './www.reallygreatsite.com (5).png';
+import { Link } from 'react-router-dom';
+import AOS from "aos";
+import { Helmet } from 'react-helmet';
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+export default function Firstproject() {
   const handleClick = () => {
     window.scrollTo(0, 0);
   };
@@ -12,139 +13,106 @@ export default function Aboutpage() {
     AOS.init();
   }, []);
   return (
-    <>
-      <Helmet>
-        <title>Codew | About Us</title>
-      </Helmet>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="900"
-        className=" ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-44"
-      >
-        <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
-          Get to know us more
+    
+      <>
+        <Helmet>
+                
+                <title>Codew | Project overview</title>
+                
+            </Helmet>
+      <div className=' flex flex-col m-auto justify-center items-center mt-44 text-center'>
+
+      <h1  data-aos="fade-up"
+        data-aos-duration="900" className='text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black'>Monaro:A site that provides <br />  information about travel  <br /> and trips.</h1>
+       </div>
+      <img  data-aos="fade-up"
+      loading="lazy"
+        data-aos-duration="900" className="w-3/4  object-cover rounded-sm mt-24 m-auto" src={FisrtProjectImage} />
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center m-auto text-start max-w-3xl mt-32'>
+
+<h1  data-aos="fade-up"
+        data-aos-duration="900" className='text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600'>
+        Discover the wonders of the world with our comprehensive travel and trip planning website. Whether you're a seasoned globetrotter or a first-time explorer, we provide everything you need to make your journey seamless and unforgettable. From destination guides and insider travel tips to the latest on trending spots and hidden gems, we’re your go-to source for all things travel.
         </h1>
-        <p className="text-neutral-600 text-xl lg:text-xl font-Text mt-6">
-          Get To Know Us More, Gain More Trust In Us
-          <br /> To Transform Your Idea Into A Real Website
-        </p>
-        <hr className="w-20 h-1 mt-7 bg-black  " />
-      </div>
-      <div className=" block justify-center m-auto items-center text-center mt-72">
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" text-xl lg:text-2xl font-Text font-semibold  text-black"
-        >
-          About Us
-        </h1>
-        <h5
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" text-3xl lg:text-5xl lowercase font-Text font-semibold mt-7  text-black"
-        >
-          Your One-Stop Front-End <br />
-          Development Solution
-        </h5>
-      </div>
-      <div className=" w-11/12  m-auto lg:w-3/5 block text-start mt-52 justify-center items-center">
-        <p
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" font-Text font-normal m-auto mt-7 text-xl text-neutral-600"
-        >
-          Our Platform Is Dedicated To Delivering High-Quality Front-End
-          Development Services Tailored Specifically To Your Needs. Whether
-          You're A Startup, Small Business, Or Large Enterprise, Our Team
-          Specializes In Building
-        </p>
-        <p
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" font-Text font-normal m-auto mt-7 text-xl text-neutral-600"
-        >
-          Modern, Responsive, And Engaging Websites That Offer Seamless User
-          Experiences. At The Core Of Our Services Is A Focus On Clean,
-          Efficient Code Using HTML, CSS, JavaScript, And React.js—Ensuring{" "}
-        </p>
-        <p
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" font-Text font-normal m-auto mt-7 text-xl text-neutral-600"
-        >
-          That Your Website Performs Optimally Across All Devices And Browsers.
-          We Work Closely With Our Clients To Understand Their Vision And Bring
-          It To Life Through Customized Designs And Interactive Elements,
-          Turning
-        </p>
-        <p
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" font-Text font-normal m-auto mt-7 text-xl text-neutral-600"
-        >
-          Your Ideas Into Fully Functional, Visually Appealing Web Interfaces.
-          From Static Landing Pages To Complex Single-Page Applications, We
-          Pride Ourselves On Our Ability To Create Dynamic, User-Friendly
-          Websites That Captivate Audiences And Enhance Brand Presence.
-        </p>
-        <p
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" font-Text font-normal m-auto mt-7 text-xl text-neutral-600"
-        >
-          Our Platform Offers End-To-End Front-End Development Services,
-          Including UI/UX Design, Mobile-First Development, Cross-Browser
-          Compatibility, And Ongoing Support To Ensure Your Website Stays
-        </p>
-        <p
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" font-Text font-normal mt-7 m-auto text-xl text-neutral-600"
-        >
-          Updated And Secure. By Choosing Our Services, You Gain Access To
-          Cutting-Edge Technologies And Industry Best Practices That Help Your
-          Business Stand Out In Today’s Competitive Digital Landscape. Let Us
-          Handle The Technical Complexities So You Can Focus On Growing Your
-          Business.{" "}
-        </p>
-      </div>
-      <div className=" block justify-center m-auto items-center text-center mt-72">
-      <h5
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" text-3xl lg:text-5xl lowercase font-Text font-semibold   text-black"
-        >
-          Transform Your Ideas with codew
-        </h5>
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" text-xl lg:text-xl font-Text font-normal mt-12  text-neutral-600"
-        >
-          Partner with us to create stunning <br/> digital experiences.
-        </h1>
-       
-      </div>
-      <div className=" flex gap-10 justify-center items-center m-auto mt-20 text-center">
-      <Link data-aos="fade-up"
-          data-aos-duration="900"
-          to="/Choseservice"
-          className="text-white font-Text text-lg bg-black relative pl-7 pr-7 lg:pl-10 lg:pr-10 pt-3 pb-3  rounded-sm hover:bg-neutral-900"
-          onClick={handleClick}
-        >
-          Get Started{" "}
-        </Link> 
-        <Link data-aos="fade-up"
-          data-aos-duration="900"
-          to="/Servicespage"
-          className="text-black font-Text text-lg bg-transparent   "
-          onClick={handleClick}
-        >
-          Learn more{" "}
-        </Link>
-       
-      </div>
-      <div
+ </div>
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center m-auto text-start max-w-3xl mt-14'>
+
+<h1  data-aos="fade-up"
+        data-aos-duration="900" className='text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600'>
+Dive deep into expert-curated itineraries, local cultural insights, and personalized trip recommendations tailored to your interests. Our platform connects you with essential resources like flight deals, accommodation options, transportation guides, and activity bookings, all in one place.        </h1>
+ </div>
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center m-auto text-start max-w-3xl mt-14'>
+
+<h1  data-aos="fade-up"
+        data-aos-duration="900" className='text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600'>
+For adventurers seeking unique experiences, our community-driven reviews, blogs, and photos offer real-life perspectives that help you plan the perfect trip. Whether you're dreaming of a peaceful escape, a vibrant city break, or an off-the-beaten-path adventure, we’re here to inspire and guide your every step.
+    </h1>
+ </div>
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center m-auto text-start max-w-3xl mt-14'>
+
+<h1  data-aos="fade-up"
+        data-aos-duration="900" className='text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600'>
+Plan smarter, travel better, and explore more—your next great adventure starts here!    </h1>
+ </div>
+     
+ <div className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-52">
+
+<h1 data-aos="fade-up"
+    data-aos-duration="900" className=" text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black">
+More projects.
+</h1>
+<p data-aos="fade-up"
+        data-aos-duration="900" className="text-neutral-600 text-lg lg:text-xl font-Text mt-6">
+Learn more about our projects        </p>
+</div>
+<div className="flex flex-wrap justify-center mt-32  gap-20">
+<div data-aos="fade-up"
+    data-aos-duration="900" className="w-11/12  md:w-96 md:h-96 border border-solid border-neutral-200 rounded-xl m-auto mt-14  block text-start p-4 hover:bg-neutral-100 cursor-pointer">
+  <sapn className="font-Text font-meduim text-lg text-neutral-500">Novembre, 2020</sapn>
+  <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+    Printit
+  </h1>
+  <p  className="text-neutral-600 lowercase text-lg lg:text-xl font-Text mt-6">
+  A Website For Printing On Demand For All The Products That The Customer Wants, And Also With The Designs That The Customer Chooses
+</p>
+<div className="flex gap-1 cursor-pointer"> 
+<Link
+                to="/Fourthproject"
+                className="font-Text text-lg  text-black relative top-7"
+                onClick={handleClick}
+              >
+Read more              </Link><svg className="w-7 h-w-7 text-black mt-8 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+</svg>
+</div>
+</div>
+<div data-aos="fade-up"
+    data-aos-duration="900" className="w-11/12  md:w-96 md:h-96 border border-solid border-neutral-200 rounded-xl mt-14 m-auto  block text-start p-4 hover:bg-neutral-100 cursor-pointer">
+  <sapn className="font-Text font-meduim text-lg text-neutral-500">Novembre, 2020</sapn>
+  <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+    Power Gym
+  </h1>
+  <p  className="text-neutral-600 text-lg lowercase lg:text-xl font-Text mt-6">
+  A Gym Website Where You Can Work Out On
+Your Own With A Personal Trainer Or Even Order
+Anything Related To Sports From
+Anywhere In The World. 
+</p>
+<div className="flex gap-1 cursor-pointer"> 
+<Link
+                to="/Thirdproject"
+                className="font-Text text-lg  text-black relative top-7"
+                onClick={handleClick}
+              >
+Read more              </Link> <svg className="w-7 h-w-7 text-black mt-8 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+</svg>
+</div>
+</div>
+
+
+</div> 
+<div
         data-aos="fade-up"
         data-aos-duration="900"
         className="  block mt-56 text-start ml-8 md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-14"
@@ -268,7 +236,10 @@ export default function Aboutpage() {
         <h3 className=" text-neutral-600    text-base font-Text block lg:mr-10 lg:text-neutral-600 lg:text-base lg:font-Text ">
           Copyright © 2024 Codew App Company.
         </h3>
-      </div>
-    </>
-  );
+      </div> 
+    
+  
+    
+      </>
+    )
 }

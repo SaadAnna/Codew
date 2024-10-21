@@ -1,12 +1,10 @@
-import CompanyImage from "./pexels-olia-danilevich-4974915 (1).jpg";
-import FisrtProjectImage from "./www.reallygreatsite.com (5).png";
-import SecondProjectImage from "./command-website.png";
-import FirstCoustmer from "./First_coustmer.png";
-import ThirdCoustmer from "./Third_coustmer.png";
-import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
-import { useEffect } from "react";
+/* eslint-disable react/no-unescaped-entities */
 import AOS from "aos";
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Helmet } from "react-helmet";
+import ThirdCoustmer from "./Third_coustmer.png";
+import FirstCoustmer from "./First_coustmer.png";
 import "aos/dist/aos.css";
 export default function Homepage() {
   const handleClick = () => {
@@ -18,334 +16,583 @@ export default function Homepage() {
   return (
     <>
       <Helmet>
-        <title>Codew - Home</title>
+        <title>Codew | Home</title>
       </Helmet>
+
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="ml-5 block text-start justify-start items-start mt-28 lg:ml-8"
+        className=" ml-5   block justify-between md:ml-14 m-auto items-center text-start mt-44"
       >
-        <h1 className="text-4xl font-Text font-medium lg:text-6xl text-black">
-          Unleash and advance your <br /> business or project to the <br />
-          furthest limits possibilitie <br />
-          with codew
+        <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
+          Unleash and advance <br />
+          your business or project
+          <br /> to the furthest limits <br />
+          possibilitie with codew{" "}
         </h1>
-        <p className="text-neutral-600 text-lg font-Text mt-6">
-          our responsive customizable website templates help
-           you create<br /> a professional modern website that
-         showcases your brand   <br />and engages
-          your audience.
+        <p className="text-neutral-600 text-xl lg:text-xl font-Text mt-6">
+          Transform your ideas into a fully interactive and engaging <br />
+          website with our expert front-end development tailored to <br />
+          meet your specific needs.
         </p>
         <Link
           to="/Choseservice"
-          className="text-white font-Text text-lg bg-black relative top-10 p-3 rounded-sm hover:bg-neutral-900"
+          className="text-white font-Text text-lg bg-black relative top-10 pl-10 pr-10 pt-3 pb-3  rounded-sm hover:bg-neutral-900"
           onClick={handleClick}
-          >
-          Get Started
+        >
+          Get Started{" "}
         </Link>
       </div>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="900"
-        className="ml-5 block text-start justify-start items-start mt-72 lg:ml-8"
-      >
-        <h1 className="text-5xl font-Text font-medium lg:text-5xl text-black">
-          Our services
+      <div className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-72">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+        >
+          How it works?
         </h1>
-        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-4">
-          web design and development services to <br /> meet your business
-          needs.
+        <p
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="text-neutral-600 text-lg lg:text-xl font-Text mt-6"
+        >
+          Share your project. We handle the rest.
         </p>
       </div>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="900"
-        className=" block  items-center   m-auto lg:flex lg:justify-between lg:items-center lg:text-center lg:mt-16"
-      >
-        <div className="m-auto  w-10/12 cursor-pointer border border-neutral-200 rounded-2xl border-solid  block justify-center items-center text-start mt-20 pt-5 pb-5 pl-3 pr-3  lg:w-80 lg:h-80 lg:pl-4 lg:pr-4 lg:pb-8 lg:pt-8 lg:cursor-pointer lg:border lg:border-neutral-200 lg:rounded-2xl lg:border-solid  lg:block lg:justify-center lg:items-center lg:text-start">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="55"
-            height="55"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1 10.199l-3.64 1.801 3.64 1.796v2.204l-6-2.935v-2.131l6-2.934v2.199zm8 2.866l-6 2.935v-2.204l3.64-1.796-3.64-1.801v-2.199l6 2.935v2.13z" />
-          </svg>{" "}
-          <h1 className="font-Text text-xl text-black mt-3 font-medium">
-            Website Programming
+      <div className="block justify-center items-center text-center mt-20  lg:flex lg:justify-evenly lg:items-center lg:text-center lg:mt-24">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="w-70 h-70 block m-auto mt-12 text-center"
+        >
+          <span className="font-Text text-5xl font-normal text-black m-auto">
+            1
+          </span>
+          <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+            Design
           </h1>
-        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-4">
-            our company designs and programs <br />
-            the front-end of websites with high <br /> accuracy, excellent
-            quality, and <br /> fantastic prices.
+          <p className="text-neutral-600 text-lg lg:text-xl font-Text mt-4">
+            Designers create prototypes <br /> and mockups for your <br />
+            approval.
           </p>
         </div>
-        <div className=" m-auto  w-10/12 cursor-pointer border border-neutral-200 rounded-2xl border-solid  block justify-center items-center text-start mt-20 pt-5 pb-5 pl-3 pr-3 lg:w-80 lg:h-80 lg:pl-4 lg:pr-4 lg:pb-8 lg:pt-8 lg:cursor-pointer lg:border lg:border-neutral-200 lg:rounded-2xl lg:border-solid  lg:block lg:justify-center lg:items-center lg:text-start">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="55"
-            height="55"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-6.373 16.199c3.809.315 2.446-3.73 5.97-3.769l1.526 1.274c.381 4.6-5.244 5.626-7.496 2.495zm8.293-3.396l-1.549-1.293c.457-2.18 1.854-4.188 3.267-5.51l3.362 2.804c-1.041 1.636-3.023 3.154-5.08 3.999z" />
-          </svg>{" "}
-          <h1 className="font-Text text-xl text-black mt-3 font-medium">
-            Graphic Design
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="w-70 h-70 block m-auto mt-12 text-center"
+        >
+          <span className="font-Text text-5xl font-normal text-black m-auto">
+            2
+          </span>
+          <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+            Code
           </h1>
-          <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-4">
-          in addition to website programming <br />
-            our company also pre-designs <br />
-            the front-end of your <br />
-            website.
+          <p className="text-neutral-600 text-lg lg:text-xl font-Text mt-4">
+            We create clean code that <br /> meets all your needs to create{" "}
+            <br /> your website.
           </p>
         </div>
-        <div className="m-auto  w-10/12 cursor-pointer border border-neutral-200 rounded-2xl border-solid  block justify-center items-center text-start mt-20 pt-5 pb-5 pl-3 pr-3 lg:w-80 lg:h-80 lg:pl-4 lg:pr-4 lg:pb-8 lg:pt-8 lg:cursor-pointer lg:border lg:border-neutral-200 lg:rounded-2xl lg:border-solid  lg:block lg:justify-center lg:items-center lg:text-start">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="55"
-            height="55"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 18.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25c.691 0 1.25.56 1.25 1.25s-.559 1.25-1.25 1.25zm1.961-5.928c-.904.975-.947 1.514-.935 2.178h-2.005c-.007-1.475.02-2.125 1.431-3.468.573-.544 1.025-.975.962-1.821-.058-.805-.73-1.226-1.365-1.226-.709 0-1.538.527-1.538 2.013h-2.01c0-2.4 1.409-3.95 3.59-3.95 1.036 0 1.942.339 2.55.955.57.578.865 1.372.854 2.298-.016 1.383-.857 2.291-1.534 3.021z" />
-          </svg>{" "}
-          <h1 className="font-Text text-xl text-black mt-3 font-medium">
-            IT Support
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="w-70 h-70 block m-auto mt-12 text-center"
+        >
+          <span className="font-Text text-5xl font-normal text-black m-auto">
+            3
+          </span>
+          <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+            Puplish
           </h1>
-          <p className="font-Text  text-lg text-neutral-600 mt-3">
-            our IT Support team is available <br />
-            24/7 to help you with any technical
-            <br />
-            issues or questions you <br />
-            may have.
+          <p className="text-neutral-600 text-lg lg:text-xl font-Text mt-4">
+            We publish your site in all the search <br /> engines you want and
+            it is <br /> reviewed every day.
           </p>
         </div>
       </div>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="900"
-        className=" block m-auto mt-32 lg:flex  lg:justify-between lg:items-center lg:text-center lg:mt-32"
-      >
-        <div data-aos="fade-up"
-        data-aos-duration="900"
-        className="ml-5 block text-start justify-start items-start lg:ml-8">
-          <h1 className="text-3xl font-Text  font-medium lg:text-4xl text-black">
-          Exceptional
-          Front-End 
+      <div className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-52">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+        >
+          What We Offer
+        </h1>
+        <p
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="text-neutral-600 text-lg lg:text-xl font-Text mt-6"
+        >
+          A brief introduction to our core services{" "}
+        </p>
+      </div>
+     
+      <div className=" flex flex-wrap justify-center mt-32  gap-20">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="   w-11/12 m-auto p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
+        >
+          <svg
+            className="w-14 h-14  mt-4 text-black dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fillRule="evenodd"
+              d="M15.514 3.293a1 1 0 0 0-1.415 0L12.151 5.24a.93.93 0 0 1 .056.052l6.5 6.5a.97.97 0 0 1 .052.056L20.707 9.9a1 1 0 0 0 0-1.415l-5.193-5.193ZM7.004 8.27l3.892-1.46 6.293 6.293-1.46 3.893a1 1 0 0 1-.603.591l-9.494 3.355a1 1 0 0 1-.98-.18l6.452-6.453a1 1 0 0 0-1.414-1.414l-6.453 6.452a1 1 0 0 1-.18-.98l3.355-9.494a1 1 0 0 1 .591-.603Z"
+              clipRule="evenodd"
+            />
+          </svg>
+          <h1 className="text-3xl mt-3 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+            Create Modern User Interface
           </h1>
-          <p className="text-neutral-600 text-lg font-Text mt-6"> 
-          at codew we specialize in building visually stunning<br />
-          and highly performant web applications.
+          <p className="text-neutral-600 lowercase font-normal text-xl font-Text mt-4">
+            Create Intuitive And Visually Appealing User Interfaces That Enhance
+            User Experience.
           </p>
-          <Link
-            to="/Choseservice"
-            className="text-white font-Text text-lg bg-black relative top-10 p-3 rounded-sm hover:bg-neutral-900"
-            onClick={handleClick}
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="   w-11/12 m-auto p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
+        >
+          <svg
+            className="w-14 h-14  mt-4 text-black dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"
+            />
+          </svg>
+
+          <h1 className="text-3xl mt-3 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+            Front-End development
+          </h1>
+          <p className="text-neutral-600 lowercase font-normal text-xl font-Text mt-4">
+            Build Responsive And Interactive Web Applications Using Modern
+            Front-End Technologies.
+          </p>
+        </div>
+      </div>
+      <div className=" flex flex-wrap justify-center mt-32  gap-20">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="   w-11/12 m-auto p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
+        >
+          <svg
+            className="w-14 h-14  mt-4 text-black dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="m10.051 8.102-3.778.322-1.994 1.994a.94.94 0 0 0 .533 1.6l2.698.316m8.39 1.617-.322 3.78-1.994 1.994a.94.94 0 0 1-1.595-.533l-.4-2.652m8.166-11.174a1.366 1.366 0 0 0-1.12-1.12c-1.616-.279-4.906-.623-6.38.853-1.671 1.672-5.211 8.015-6.31 10.023a.932.932 0 0 0 .162 1.111l.828.835.833.832a.932.932 0 0 0 1.111.163c2.008-1.102 8.35-4.642 10.021-6.312 1.475-1.478 1.133-4.77.855-6.385Zm-2.961 3.722a1.88 1.88 0 1 1-3.76 0 1.88 1.88 0 0 1 3.76 0Z"
+            />
+          </svg>
+
+          <h1 className="text-3xl mt-3 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+            Performance Optimization
+          </h1>
+          <p className="text-neutral-600 lowercase font-normal text-xl font-Text mt-4">
+            Optimize Your Web Applications For Speed And Efficiency To Improve
+            User Satisfaction And SEO.
+          </p>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="   w-11/12 m-auto p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
+        >
+          <svg
+            className="w-14 h-14  mt-4  text-black dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M9 10V6a3 3 0 0 1 3-3v0a3 3 0 0 1 3 3v4m3-2 .917 11.923A1 1 0 0 1 17.92 21H6.08a1 1 0 0 1-.997-1.077L6 8h12Z"
+            />
+          </svg>
+
+          <h1 className="text-3xl mt-3 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+            Shopify App Development
+          </h1>
+          <p className="text-neutral-600 lowercase font-normal text-xl font-Text mt-4">
+          Development Shopify Applications and Stores with High-Quality And Add E-commerce Features 
+          </p>
+        </div>
+      </div>
+      <div className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-52">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className=" text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+        >
+          What We've Built
+        </h1>
+        <p
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="text-neutral-600 text-lg lg:text-xl font-Text mt-6"
+        >
+          Bold designs, flawless execution.{" "}
+        </p>
+      </div>
+      <div className=" flex flex-wrap justify-center mt-32  gap-20">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="   w-11/12 m-auto p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
+        >
+          <sapn className="font-Text font-meduim text-lg text-neutral-500">
+            Octobre, 2022
+          </sapn>
+          <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+            Monaro
+          </h1>
+          <p className="text-neutral-600 text-lg lowercase lg:text-xl font-Text mt-6">
+            Front-End Website For Remote Travel Where You Can Book
+            Accommodation, Food And Also Flights To And Airport From Anywhere In
+            The World
+          </p>
+          <div className="flex gap-1 cursor-pointer">
+            <Link
+              to="/Firstproject"
+              className="font-Text text-lg  text-black relative top-4"
+              onClick={handleClick}
             >
-            Get Started
-          </Link>
+              Read more{" "}
+            </Link>{" "}
+            <svg
+              className="w-7 h-w-7 text-black mt-5 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M19 12H5m14 0-4 4m4-4-4-4"
+              />
+            </svg>
+          </div>
         </div>
-        <img data-aos="fade-up"
-        data-aos-duration="900"
-          className=" w-11/12 m-auto mt-32 lg:ml-5 lg:w-1/2 lg:mr-7 lg:rounded-lg"
-          src={CompanyImage}
-        />
-      </div>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="900"
-        className="ml-5 block text-start justify-start items-start mt-72 lg:ml-8"
-      >
-        <h1 className="text-4xl font-Text font-medium lg:text-5xl text-black">
-          our projects
-        </h1>
-        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
-          check out some of our latest work and
-          <br /> see how we can help bring your vision to life.
-        </p>
-      </div>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="900"
-        className=" block justify-center items-center text-center mt-32 lg:flex lg:justify-between lg:items-center lg:text-center lg:mt-32"
-      >
-        <div 
-                data-aos="fade-up"
-        data-aos-duration="900"
-         className="block  m-auto rounded-lg text-start justify-start w-3/4 p-2 cursor-pointer border border-solid border-neutral-200 lg:block lg:rounded-lg lg:text-start lg:justify-start lg:w-96 lg:h-full lg:mt-10 lg:p-2 lg:cursor-pointer lg:border lg:border-solid lg:border-neutral-200">
-          <img className="w-11/12 lg:w-full m-auto h-72 rounded-lg" src={FisrtProjectImage} />
-          <h1 className="text-3xl font-Text font-medium mt-3 text-black">
-            Travel website
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="   w-11/12 m-auto p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
+        >
+          <sapn className="font-Text font-meduim text-lg text-neutral-500">
+            Decembre, 2021
+          </sapn>
+          <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+            Naturalit
           </h1>
-          <p className="text-neutral-600 text-lg font-Text mt-4">
-            front-end website for remote travel where you can book
-            accommodation, food and also <br />
-            flights to and airport
-            <br />
-            from anywhere in <br />
-            the world
+          <p className="text-neutral-600 text-lg lowercase lg:text-xl font-Text mt-6">
+            A Site To Buy And Order Everything Related To Plants And Natural
+            Products That Are Harvested Directly From Nature And Sold On This
+            Site With High Quality.
           </p>
+          <div className="flex gap-1 cursor-pointer">
+            <Link
+              to="/Secondproject"
+              className="font-Text text-lg  text-black relative top-4"
+              onClick={handleClick}
+            >
+              Read more{" "}
+            </Link>{" "}
+            <svg
+              className="w-7 h-w-7 text-black mt-5 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M19 12H5m14 0-4 4m4-4-4-4"
+              />
+            </svg>
+          </div>
         </div>
-        <div         data-aos="fade-up"
-        data-aos-duration="900" className="block m-auto mt-10  rounded-lg text-start justify-start w-3/4 p-2 cursor-pointer border border-solid border-neutral-200 lg:block lg:rounded-lg lg:text-start lg:justify-start lg:w-96 lg:h-full lg:pb-16 lg:p-2 lg:cursor-pointer lg:border lg:border-solid lg:border-neutral-200">
-          <img className="w-11/12 m-auto box-border   lg:w-full h-72 rounded-lg" src={SecondProjectImage} />
-          <h1 className="text-3xl font-Text font-medium mt-3 text-black">
-            Order website
+      </div>
+      <div className="flex flex-wrap justify-center mt-32  gap-20">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="   w-11/12 m-auto p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
+        >
+          <sapn className="font-Text font-meduim text-lg text-neutral-500">
+            Novembre, 2020
+          </sapn>
+          <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+            Power Gym
           </h1>
-          <p className="text-neutral-600 text-lg font-Text mt-4">
-            a company website through which you <br />
-            can order anything you see from any <br />
-            store and anywhere in the <br />
-            world.
+          <p className="text-neutral-600 text-lg lowercase lg:text-xl font-Text mt-6">
+            A Gym Website Where You Can Work Out On Your Own With A Personal
+            Trainer Or Even Order Anything Related To Sports From Anywhere In
+            The World.
           </p>
+          <div className="flex gap-1 cursor-pointer">
+            <Link
+              to="/Thirdproject"
+              className="font-Text text-lg  text-black relative top-4"
+              onClick={handleClick}
+            >
+              Read more{" "}
+            </Link>{" "}
+            <svg
+              className="w-7 h-w-7 text-black mt-5 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M19 12H5m14 0-4 4m4-4-4-4"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="   w-11/12 m-auto p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
+        >
+          <sapn className="font-Text font-meduim text-lg text-neutral-500">
+            Novembre, 2020
+          </sapn>
+          <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+            Printit
+          </h1>
+          <p className="text-neutral-600 lowercase text-lg lg:text-xl font-Text mt-6">
+            A Website For Printing On Demand For All The Products That The
+            Customer Wants, And Also With The Designs That The Customer Chooses
+          </p>
+          <div className="flex gap-1 cursor-pointer">
+            <Link
+              to="/Fourthproject"
+              className="font-Text text-lg  text-black relative top-4"
+              onClick={handleClick}
+            >
+              Read more{" "}
+            </Link>
+            <svg
+              className="w-7 h-w-7 text-black mt-5 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M19 12H5m14 0-4 4m4-4-4-4"
+              />
+            </svg>
+          </div>
         </div>
       </div>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="900"
-        className="flex justify-center items-center text-center mt-14"
-      >
-        <Link
-          to="/Workpage"
-          className="text-white font-Text text-lg bg-black relative top-10 pl-14 pr-14 pt-3 pb-3  rounded-sm hover:bg-neutral-900"
-          onClick={handleClick}
-          >
-          Learn More{" "}
-        </Link>
-      </div>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="900"
-        className="ml-5 block text-start justify-start items-start mt-72 lg:ml-8"
-      >
-        <h1 className="text-4xl font-Text font-medium lg:text-5xl text-black">
+
+      <div className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-52">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+        >
           What our customers say
         </h1>
-        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
-          hear from our satisfied customers about their experience
-          <br /> with our services.
+        <p
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="text-neutral-600 text-lg lg:text-xl font-Text mt-6"
+        >
+          What they said about our work{" "}
         </p>
       </div>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="900"
-        className=" block m-auto justify-center items-center  lg:flex lg:justify-around lg:items-center lg:text-center lg:mt-32"
-      >
-        <div className="  w-10/12 block p-3 cursor-pointer text-start m-auto mt-10 rounded-lg gap-2 lg:w-96 lg:h-96 border border-solid border-neutral-200">
-          <img className="w-16 h-16 rounded-full" src={FirstCoustmer} />
-          <div className="flex gap-1 mt-4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="17"
-              height="17"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z" />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="17"
-              height="17"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z" />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="17"
-              height="17"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z" />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="17"
-              height="17"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z" />
-            </svg>
+      <div className=" flex flex-wrap justify-center mt-32  gap-20">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="w-11/12 md:w-96 md:h-96 text-start border border-solid border-neutral-200 rounded-xl p-6 mt-14 m-auto"
+        >
+          <div className="flex items-center mb-4 gap-4">
+            <img
+              className="w-10 h-10 object-contain rounded-full"
+              src={FirstCoustmer}
+            />
+            <h1 className=" font-Text font-medium leading-8 lg:text-xl text-black ">
+              Mike sendler
+            </h1>
           </div>
-          <h1 className="text-3xl font-Text font-medium mt-3 text-black">
-            Mike sendler
-          </h1>
-          <p className="text-neutral-600 text-lg font-Text mt-4">
+          <p className="text-neutral-600 text-lg lg:text-xl font-Text mt-6">
             i liked the way codew team dealt with me. they were always available{" "}
-            <br />
             to communicate and modify according to my requests. the final design
-            <br />
-            was smooth and <br /> responsive
+            was smooth and responsive
           </p>
-        </div>
-
-        <div className="  w-10/12 block p-3 text-start cursor-pointer m-auto mt-10 rounded-lg gap-2 lg:w-96 lg:h-96 border border-solid border-neutral-200">
-          <img className="w-16 h-16 rounded-full" src={ThirdCoustmer} />
-          <div className="flex gap-1 mt-4">
+          <div className="flex items-center mb-4 mt-4">
             <svg
+              className="w-6 h-6 text-yellow-500 dark:text-white"
+              aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
-              width="17"
-              height="17"
+              width="24"
+              height="24"
+              fill="currentColor"
               viewBox="0 0 24 24"
             >
-              <path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z" />
+              <path d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
             </svg>
             <svg
+              className="w-6 h-6 text-yellow-500 dark:text-white"
+              aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
-              width="17"
-              height="17"
+              width="24"
+              height="24"
+              fill="currentColor"
               viewBox="0 0 24 24"
             >
-              <path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z" />
+              <path d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
             </svg>
             <svg
+              className="w-6 h-6 text-yellow-500 dark:text-white"
+              aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
-              width="17"
-              height="17"
+              width="24"
+              height="24"
+              fill="currentColor"
               viewBox="0 0 24 24"
             >
-              <path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z" />
+              <path d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
             </svg>
             <svg
+              className="w-6 h-6 text-yellow-500 dark:text-white"
+              aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
-              width="17"
-              height="17"
+              width="24"
+              height="24"
+              fill="currentColor"
               viewBox="0 0 24 24"
             >
-              <path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z" />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="17"
-              height="17"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z" />
+              <path d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
             </svg>
           </div>
-          <h1 className="text-3xl font-Text font-medium mt-3 text-black">
-            Melissa miner
-          </h1>
-
-          <p className="text-neutral-600 text-lg font-Text mt-4">
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="w-11/12 md:w-96 md:h-96 text-start border border-solid border-neutral-200 rounded-xl p-6 mt-14 m-auto"
+        >
+          <div className="flex items-center mb-4 gap-4">
+            <img
+              className="w-10 h-10 object-contain rounded-full"
+              src={ThirdCoustmer}
+            />
+            <h1 className=" font-Text font-medium leading-8 lg:text-xl text-black ">
+              Jhon alex
+            </h1>
+          </div>
+          <p className="text-neutral-600 text-lg lg:text-xl font-Text mt-6">
             codew provided a great service in terms of design and communication.
-            <br />
-            i expected more innovation in some aspects, but overall <br />
-            i am satisfied with
-            <br />
-            the results.
+            i expected more innovation in some aspects, but overall i am
+            satisfied with the results
           </p>
+          <div className="flex items-center mb-4 mt-4">
+            <svg
+              className="w-6 h-6 text-yellow-500 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+            </svg>
+            <svg
+              className="w-6 h-6 text-yellow-500 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+            </svg>
+            <svg
+              className="w-6 h-6 text-yellow-500 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+            </svg>
+          </div>
         </div>
       </div>
+
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  block mt-56 text-start ml-4 lg:flex lg:justify-between lg:items-center lg:text-center lg:mt-72 lg:ml-8"
+        className="  block mt-56 text-start ml-8 md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-14"
       >
-        <div className=" mt-10  lg:block lg:text-start  lg:justify-start lg:items-start">
+        <div className=" mt-9  flex flex-col text-center justify-start items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
-          <p className="text-neutral-600 text-base font-Text mt-4">
-          make your business more famous by <br /> designing a
-          wonderful and attractive <br />website with codew.
+          <p className="text-neutral-600 text-start text-base font-Text mt-4">
+            make your business more famous by <br /> designing a wonderful and
+            attractive <br />
+            website with codew.
           </p>
           <div className="flex gap-2 mt-3">
             <a href="#">
@@ -381,8 +628,8 @@ export default function Homepage() {
             </a>
           </div>
         </div>
-        <div className=" mt-16 lg:block lg:text-start lg:justify-start lg:items-start">
-          <h1 className="text-2xlxl font-Text font-medium  text-black">
+        <div className=" mt-16 flex flex-col text-start justify-start items-start">
+          <h1 className="text-xl font-Text font-medium  text-black">
             Quick Links
           </h1>
           <ul>
@@ -402,11 +649,11 @@ export default function Homepage() {
                 Services
               </Link>
               <Link
-                to="/Workpage"
+                to="/Aboutpage"
                 className=" text-neutral-600 hover:text-black  text-base font-Text mt-4 block lg:text-neutral-600 lg:text-base lg:font-Text lg:mt-4 lg:block lg:hover:text-black"
                 onClick={handleClick}
               >
-                Work
+                About Us
               </Link>
               <Link
                 to="/Contactpage"
@@ -418,10 +665,8 @@ export default function Homepage() {
             </li>
           </ul>
         </div>
-        <div className=" mt-14  mr-14 lg:block lg:text-start lg:mr-14 lg:justify-start lg:items-start">
-          <h1 className="text-2xlxl font-Text font-medium  text-black">
-            Contact
-          </h1>
+        <div className=" mt-16  mr-14 flex flex-col text-start  justify-start items-start">
+          <h1 className="text-xl font-Text font-medium  text-black">Contact</h1>
           <ul>
             <li>
               <a
@@ -453,9 +698,9 @@ export default function Homepage() {
           </ul>
         </div>
       </div>
-      <hr className="w-11/12 mt-14 bg-gray-200  m-auto " />
-      <div className=" mt-14 pb-10 text-center  block justify-start items-start lg:pb-10 lg:flex lg:justify-between lg:items-start lg:mt-14 lg:m-auto">
-        <h3 className=" text-neutral-600     text-base font-Text block lg:ml-10 lg:text-neutral-600 lg:text-base lg:font-Text ">
+      <hr className="w-11/12 mt-14 bg-neutral-200  m-auto " />
+      <div className=" mt-14 pb-10   text-center  block justify-start items-start lg:pb-10 lg:flex lg:justify-between lg:items-start lg:mt-14 lg:m-auto">
+        <h3 className=" text-neutral-600 text-base font-Text block lg:ml-14 lg:text-neutral-600 lg:text-base lg:font-Text ">
           Build By Codew.
         </h3>
         <h3 className=" text-neutral-600    text-base font-Text block lg:mr-10 lg:text-neutral-600 lg:text-base lg:font-Text ">

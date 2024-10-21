@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 /* eslint-disable react/no-unescaped-entities */
-export default function Aboutpage() {
+import ThirdProjectImage from './gym-website.png';
+import { Link } from 'react-router-dom';
+import AOS from "aos";
+import { Helmet } from 'react-helmet';
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+export default function Secondproject() {
   const handleClick = () => {
     window.scrollTo(0, 0);
   };
@@ -12,139 +13,109 @@ export default function Aboutpage() {
     AOS.init();
   }, []);
   return (
-    <>
-      <Helmet>
-        <title>Codew | About Us</title>
-      </Helmet>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="900"
-        className=" ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-44"
-      >
-        <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
-          Get to know us more
-        </h1>
-        <p className="text-neutral-600 text-xl lg:text-xl font-Text mt-6">
-          Get To Know Us More, Gain More Trust In Us
-          <br /> To Transform Your Idea Into A Real Website
-        </p>
-        <hr className="w-20 h-1 mt-7 bg-black  " />
-      </div>
-      <div className=" block justify-center m-auto items-center text-center mt-72">
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" text-xl lg:text-2xl font-Text font-semibold  text-black"
-        >
-          About Us
-        </h1>
-        <h5
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" text-3xl lg:text-5xl lowercase font-Text font-semibold mt-7  text-black"
-        >
-          Your One-Stop Front-End <br />
-          Development Solution
-        </h5>
-      </div>
-      <div className=" w-11/12  m-auto lg:w-3/5 block text-start mt-52 justify-center items-center">
-        <p
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" font-Text font-normal m-auto mt-7 text-xl text-neutral-600"
-        >
-          Our Platform Is Dedicated To Delivering High-Quality Front-End
-          Development Services Tailored Specifically To Your Needs. Whether
-          You're A Startup, Small Business, Or Large Enterprise, Our Team
-          Specializes In Building
-        </p>
-        <p
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" font-Text font-normal m-auto mt-7 text-xl text-neutral-600"
-        >
-          Modern, Responsive, And Engaging Websites That Offer Seamless User
-          Experiences. At The Core Of Our Services Is A Focus On Clean,
-          Efficient Code Using HTML, CSS, JavaScript, And React.js—Ensuring{" "}
-        </p>
-        <p
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" font-Text font-normal m-auto mt-7 text-xl text-neutral-600"
-        >
-          That Your Website Performs Optimally Across All Devices And Browsers.
-          We Work Closely With Our Clients To Understand Their Vision And Bring
-          It To Life Through Customized Designs And Interactive Elements,
-          Turning
-        </p>
-        <p
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" font-Text font-normal m-auto mt-7 text-xl text-neutral-600"
-        >
-          Your Ideas Into Fully Functional, Visually Appealing Web Interfaces.
-          From Static Landing Pages To Complex Single-Page Applications, We
-          Pride Ourselves On Our Ability To Create Dynamic, User-Friendly
-          Websites That Captivate Audiences And Enhance Brand Presence.
-        </p>
-        <p
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" font-Text font-normal m-auto mt-7 text-xl text-neutral-600"
-        >
-          Our Platform Offers End-To-End Front-End Development Services,
-          Including UI/UX Design, Mobile-First Development, Cross-Browser
-          Compatibility, And Ongoing Support To Ensure Your Website Stays
-        </p>
-        <p
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" font-Text font-normal mt-7 m-auto text-xl text-neutral-600"
-        >
-          Updated And Secure. By Choosing Our Services, You Gain Access To
-          Cutting-Edge Technologies And Industry Best Practices That Help Your
-          Business Stand Out In Today’s Competitive Digital Landscape. Let Us
-          Handle The Technical Complexities So You Can Focus On Growing Your
-          Business.{" "}
-        </p>
-      </div>
-      <div className=" block justify-center m-auto items-center text-center mt-72">
-      <h5
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" text-3xl lg:text-5xl lowercase font-Text font-semibold   text-black"
-        >
-          Transform Your Ideas with codew
-        </h5>
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="900"
-          className=" text-xl lg:text-xl font-Text font-normal mt-12  text-neutral-600"
-        >
-          Partner with us to create stunning <br/> digital experiences.
-        </h1>
-       
-      </div>
-      <div className=" flex gap-10 justify-center items-center m-auto mt-20 text-center">
-      <Link data-aos="fade-up"
-          data-aos-duration="900"
-          to="/Choseservice"
-          className="text-white font-Text text-lg bg-black relative pl-7 pr-7 lg:pl-10 lg:pr-10 pt-3 pb-3  rounded-sm hover:bg-neutral-900"
-          onClick={handleClick}
-        >
-          Get Started{" "}
-        </Link> 
-        <Link data-aos="fade-up"
-          data-aos-duration="900"
-          to="/Servicespage"
-          className="text-black font-Text text-lg bg-transparent   "
-          onClick={handleClick}
-        >
-          Learn more{" "}
-        </Link>
-       
-      </div>
-      <div
+    
+      <>
+         <Helmet>
+                
+                <title>Codew | Project overview</title>
+                
+            </Helmet>
+      <div className=' flex flex-col m-auto justify-center items-center mt-44 text-center'>
+ 
+      <h1  data-aos="fade-up"
+      loading="lazy"
+        data-aos-duration="900" className='text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black'>Power gym
+:A website dedicated to <br /> everything related to weightlifting <br /> and sports. </h1>       </div>
+      <img  data-aos="fade-up"
+        data-aos-duration="900" className="w-3/4  object-cover rounded-sm mt-24 m-auto" src={ThirdProjectImage} />
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center m-auto text-start max-w-3xl mt-32'>
+
+<h1  data-aos="fade-up"
+        data-aos-duration="900" className='text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600'>
+Whether you're a seasoned lifter or just starting your fitness journey, our website is your go-to resource for everything related to weightlifting and sports. From in-depth training guides and workout routines to expert tips and cutting-edge equipment reviews, we provide everything you need to push your limits and reach new heights.
+</h1>
+ </div>
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center m-auto text-start max-w-3xl mt-14'>
+
+<h1  data-aos="fade-up"
+        data-aos-duration="900" className='text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600'>
+Explore our vast collection of articles, video tutorials, and personalized workout plans, all designed to help you optimize your training. Get insights into the latest trends in fitness, discover the best gear for your goals, and join a thriving community of like-minded athletes sharing real-life stories, advice, and motivation.</h1>
+ </div>
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center m-auto text-start max-w-3xl mt-14'>
+
+<h1  data-aos="fade-up"
+        data-aos-duration="900" className='text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600'>
+Ready to unlock your full potential? Dive into our expert-curated content, stay up to date with the latest sports news, and access exclusive deals on top fitness products. Whether you’re aiming for personal bests in the gym or looking to enhance your overall athletic performance, we’re here to guide you every step of the way. </h1>
+ </div>
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center m-auto text-start max-w-3xl mt-14'>
+
+<h1  data-aos="fade-up"
+        data-aos-duration="900" className='text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600'>
+Join us and discover how you can elevate your fitness, transform your body, and push your limits with confidence. Your ultimate sports and weightlifting journey starts here!</h1>
+ </div>
+     
+ <div className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-52">
+
+<h1 data-aos="fade-up"
+    data-aos-duration="900" className=" text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black">
+More projects.
+</h1>
+<p data-aos="fade-up"
+        data-aos-duration="900" className="text-neutral-600 text-lg lg:text-xl font-Text mt-6">
+Learn more about our projects        </p>
+</div>
+<div className="flex flex-wrap justify-center mt-32  gap-20">
+
+<div data-aos="fade-up"
+    data-aos-duration="900" className="w-11/12  md:w-96 md:h-96  border border-solid border-neutral-200 rounded-xl mt-14 m-auto  block text-start p-4 hover:bg-neutral-100 cursor-pointer">
+  <sapn className="font-Text font-meduim text-lg text-neutral-500">Octobre, 2022</sapn>
+  <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+    Monaro
+  </h1>
+  <p  className="text-neutral-600 text-lg lowercase lg:text-xl font-Text mt-6">
+  Front-End Website For Remote Travel Where You Can Book
+Accommodation, Food And Also
+Flights To And Airport
+From Anywhere In
+The World  
+</p>
+<div className="flex gap-1 cursor-pointer"> 
+<Link
+                to="/Firstproject"
+                className="font-Text text-lg  text-black relative top-7"
+                onClick={handleClick}
+              >
+Read more              </Link> <svg className="w-7 h-w-7 text-black mt-8 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+</svg>
+</div>
+</div>
+
+<div data-aos="fade-up"
+    data-aos-duration="900" className="w-11/12  md:w-96 md:h-96  border border-solid border-neutral-200 rounded-xl mt-14 m-auto  block text-start p-4 hover:bg-neutral-100 cursor-pointer ">
+  <sapn className="font-Text font-meduim text-lg text-neutral-500">Decembre, 2021</sapn>
+  <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+   Naturalit
+  </h1>
+  <p  className="text-neutral-600 text-lg lowercase lg:text-xl font-Text mt-6">
+  A Site To Buy And Order Everything Related To Plants And Natural Products
+That Are Harvested Directly From Nature And
+Sold On This Site With
+High Quality. 
+</p>
+<div className="flex gap-1 cursor-pointer"> 
+<Link
+                to="/Secondproject"
+                className="font-Text text-lg  text-black relative top-7"
+                onClick={handleClick}
+              >
+Read more              </Link> <svg className="w-7 h-w-7 text-black mt-8 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+</svg>
+</div>
+</div>
+</div> 
+<div
         data-aos="fade-up"
         data-aos-duration="900"
         className="  block mt-56 text-start ml-8 md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-14"
@@ -269,6 +240,7 @@ export default function Aboutpage() {
           Copyright © 2024 Codew App Company.
         </h3>
       </div>
-    </>
-  );
+    
+      </>
+    )
 }

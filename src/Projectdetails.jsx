@@ -35,17 +35,17 @@ export default function Projectdetails() {
     <>
         <Helmet>
                 
-                <title>Codew - Project Details</title>
+                <title>Codew | Project Details</title>
                 
             </Helmet>
       <div  data-aos="fade-up"
         data-aos-duration="900"
-        className="ml-5 block text-start justify-start items-start mt-28 lg:ml-8"
+        className=" ml-5   block justify-between md:ml-14 m-auto items-center text-start mt-44"
          >
-        <h1 className="text-4xl font-Text font-medium lg:text-6xl text-black">
+        <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
           Start your project
         </h1>
-        <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
+        <p className="text-neutral-600 text-xl lg:text-xl font-Text mt-6">
           Fill Out The Form Below To Begin Your Journey with Codew. We'll Review{" "}
           <br />
           Your Project Details And Get Back To You Within 24 Hours.{" "}
@@ -55,7 +55,7 @@ export default function Projectdetails() {
       </div>
       <form  data-aos="fade-up"
         data-aos-duration="900"
-        className=" w-10/12 h-fit p-10  m-auto mt-44  flex flex-col justify-start items-start text-start  rounded-lg border border-solid border-neutral-200 pb-16 pt-16 pl-8 bg-transparent  lg:flex lg:mt-24  lg:flex-col lg:justify-start lg:items-start lg:text-start  lg:rounded-lg lg:border lg:border-solid lg:border-neutral-200 lg:w-10/12 lg:h-fit lg:pb-3 lg:pt-3 lg:pl-8 lg:bg-transparent"
+        className=" w-4/5 lg:w-fit lg:h-fit p-10  m-auto mt-44  flex flex-col justify-start items-start text-start  rounded-lg border border-solid border-neutral-200 pb-16 pt-16 pl-8 bg-transparent  lg:flex lg:mt-52  lg:flex-col lg:justify-start lg:items-start lg:text-start  lg:rounded-lg lg:border lg:border-solid lg:border-neutral-200 lg:pb-3 lg:pt-3 lg:pl-8 lg:bg-transparent"
         onSubmit={sendEmail}
       >
         <div className="block gap-7 w-full  lg:flex lg:justify-between">
@@ -176,17 +176,17 @@ export default function Projectdetails() {
       </form>
       <div  data-aos="fade-up"
         data-aos-duration="900"
-        className="ml-5 block text-start justify-start items-start mt-72 lg:ml-8"
+        className="ml-5   block justify-between md:ml-14 m-auto items-center text-start mt-72"
          > 
 
       <h1 className="text-5xl font-bold text-black font-Text">What happens next?
       </h1>
       <p className="text-neutral-600 text-lg font-Text mt-5">Our streamlined process to kickstart your project</p>
       </div>
-      <div  className="block justify-center text-center items-center m-auto mt-24 lg:flex lg:justify-around lg:items-center lg:text-center lg-mt-24">
+      <div  className="flex flex-wrap justify-center mt-32  gap-56">
 
       <div  data-aos="fade-up"
-        data-aos-duration="900" className=" ml-4  block text-start gap-5 mt-16 lg:flex lg:gap-5 ">
+        data-aos-duration="900" className=" ml-5 block text-start gap-5 mt-16 lg:flex lg:gap-5 ">
       <div className="w-fit mb-4 h-fit p-3 rounded-full bg-black">
       <svg className="w-8 h-8 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
   <path d="M2.038 5.61A2.01 2.01 0 0 0 2 6v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6c0-.12-.01-.238-.03-.352l-.866.65-7.89 6.032a2 2 0 0 1-2.429 0L2.884 6.288l-.846-.677Z"/>
@@ -199,7 +199,7 @@ export default function Projectdetails() {
       </div>
       </div>
       <div  data-aos="fade-up"
-        data-aos-duration="900" className=" ml-4 block text-start gap-5 mt-16 lg:flex lg:gap-5 ">
+        data-aos-duration="900" className="ml-5 block text-start gap-5 mt-16 lg:flex lg:gap-5 ">
       <div className="w-fit mb-4 h-fit p-3 rounded-full bg-black">
       <svg className="w-8 h-8 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
   <path fillRule="evenodd" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4a1 1 0 1 0-2 0v4a1 1 0 0 0 .293.707l3 3a1 1 0 0 0 1.414-1.414L13 11.586V8Z" clipRule="evenodd"/>
@@ -213,10 +213,10 @@ export default function Projectdetails() {
       </div>
       </div>
       </div>
-      <div className="block gap-5 justify-center text-center items-center m-auto mt-24 lg:flex lg:justify-around lg:items-center lg:text-center lg-mt-24">
+      <div className="flex flex-wrap justify-center mt-32  gap-56">
 
       <div  data-aos="fade-up"
-        data-aos-duration="900" className=" ml-4 block text-start gap-5 mt-16 lg:flex lg:gap-5 ">
+        data-aos-duration="900" className="ml-5 block text-start gap-5 mt-16 lg:flex lg:gap-5 ">
       <div className="w-fit mb-4 h-fit p-3 rounded-full bg-black">
       <svg className="w-8 h-8 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
   <path d="M7.978 4a2.553 2.553 0 0 0-1.926.877C4.233 6.7 3.699 8.751 4.153 10.814c.44 1.995 1.778 3.893 3.456 5.572 1.68 1.679 3.577 3.018 5.57 3.459 2.062.456 4.115-.073 5.94-1.885a2.556 2.556 0 0 0 .001-3.861l-1.21-1.21a2.689 2.689 0 0 0-3.802 0l-.617.618a.806.806 0 0 1-1.14 0l-1.854-1.855a.807.807 0 0 1 0-1.14l.618-.62a2.692 2.692 0 0 0 0-3.803l-1.21-1.211A2.555 2.555 0 0 0 7.978 4Z"/>
@@ -229,7 +229,7 @@ export default function Projectdetails() {
       </div>
       </div>
       <div data-aos="fade-up"
-        data-aos-duration="900"   className=" ml-4 block text-start gap-5 mt-16 lg:flex lg:gap-5 ">
+        data-aos-duration="900"   className="ml-5 block text-start gap-5 mt-16 lg:flex lg:gap-5 ">
       <div className="w-fit h-fit p-3 mb-4 rounded-full bg-black">
       <svg className="w-8 h-8 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
   <path fillRule="evenodd" d="M9 2.221V7H4.221a2 2 0 0 1 .365-.5L8.5 2.586A2 2 0 0 1 9 2.22ZM11 2v5a2 2 0 0 1-2 2H4v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-7Z" clipRule="evenodd"/>
@@ -248,15 +248,14 @@ export default function Projectdetails() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  block mt-56 text-start ml-4 lg:flex lg:justify-between lg:items-center lg:text-center lg:mt-72 lg:ml-8"
+        className="  block mt-56 text-start ml-8 md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-14"
       >
-        <div className=" mt-16  lg:block lg:text-start  lg:justify-start lg:items-start">
+        <div className=" mt-9  flex flex-col text-center justify-start items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
-          <p className="text-neutral-600 lowercase text-base font-Text mt-4">
-            Make Your Business More Famous By Designing A<br />
-            Wonderful And Attractive Website With <br />
-            The Help Of The Best <br />
-            Company Codew.
+          <p className="text-neutral-600 text-start text-base font-Text mt-4">
+            make your business more famous by <br /> designing a wonderful and
+            attractive <br />
+            website with codew.
           </p>
           <div className="flex gap-2 mt-3">
             <a href="#">
@@ -292,8 +291,8 @@ export default function Projectdetails() {
             </a>
           </div>
         </div>
-        <div className=" mt-16 lg:block lg:text-start lg:justify-start lg:items-start">
-          <h1 className="text-2xlxl font-Text font-medium  text-black">
+        <div className=" mt-16 flex flex-col text-start justify-start items-start">
+          <h1 className="text-xl font-Text font-medium  text-black">
             Quick Links
           </h1>
           <ul>
@@ -301,42 +300,41 @@ export default function Projectdetails() {
               <Link
                 to="/Homepage"
                 className=" text-neutral-600 hover:text-black  text-base font-Text mt-4 block lg:text-neutral-600 lg:text-base lg:font-Text lg:mt-4 lg:block lg:hover:text-black"
-          onClick={handleClick}
+                onClick={handleClick}
               >
                 Home
               </Link>
               <Link
                 to="/Servicespage"
                 className=" text-neutral-600 hover:text-black  text-base font-Text mt-4 block lg:text-neutral-600 lg:text-base lg:font-Text lg:mt-4 lg:block lg:hover:text-black"
-          onClick={handleClick}
+                onClick={handleClick}
               >
                 Services
               </Link>
               <Link
-                to="/Workpage"
+                to="/Aboutpage"
                 className=" text-neutral-600 hover:text-black  text-base font-Text mt-4 block lg:text-neutral-600 lg:text-base lg:font-Text lg:mt-4 lg:block lg:hover:text-black"
-          onClick={handleClick}
+                onClick={handleClick}
               >
-                Work
+                About Us
               </Link>
               <Link
                 to="/Contactpage"
                 className=" text-neutral-600 hover:text-black  text-base font-Text mt-4 block lg:text-neutral-600 lg:text-base lg:font-Text lg:mt-4 lg:block lg:hover:text-black"
-          onClick={handleClick}
+                onClick={handleClick}
               >
                 Contact Us
               </Link>
             </li>
           </ul>
         </div>
-        <div className=" mt-14  mr-14 lg:block lg:text-start lg:mr-14 lg:justify-start lg:items-start">
-          <h1 className="text-2xlxl font-Text font-medium  text-black">
-            Contact
-          </h1>
+        <div className=" mt-16  mr-14 flex flex-col text-start  justify-start items-start">
+          <h1 className="text-xl font-Text font-medium  text-black">Contact</h1>
           <ul>
             <li>
               <a
-                href="#"
+                target="_blank"
+                href="https://x.com/CodewFront_end"
                 className=" text-neutral-600 hover:text-black  text-base font-Text mt-4 block lg:text-neutral-600 lg:text-base lg:font-Text lg:mt-4 lg:block lg:hover:text-black"
               >
                 Twitter
@@ -363,9 +361,9 @@ export default function Projectdetails() {
           </ul>
         </div>
       </div>
-      <hr className="w-11/12 mt-14 bg-gray-200  m-auto " />
-      <div className=" mt-14 pb-10 text-center  block justify-start items-start lg:pb-10 lg:flex lg:justify-between lg:items-start lg:mt-14 lg:m-auto">
-        <h3 className=" text-neutral-600     text-base font-Text block lg:ml-10 lg:text-neutral-600 lg:text-base lg:font-Text ">
+      <hr className="w-11/12 mt-14 bg-neutral-200  m-auto " />
+      <div className=" mt-14 pb-10   text-center  block justify-start items-start lg:pb-10 lg:flex lg:justify-between lg:items-start lg:mt-14 lg:m-auto">
+        <h3 className=" text-neutral-600 text-base font-Text block lg:ml-14 lg:text-neutral-600 lg:text-base lg:font-Text ">
           Build By Codew.
         </h3>
         <h3 className=" text-neutral-600    text-base font-Text block lg:mr-10 lg:text-neutral-600 lg:text-base lg:font-Text ">
