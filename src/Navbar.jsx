@@ -11,8 +11,9 @@ const Navbar = () => {
 
   return (
     <nav className="bg-transparent">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center text-start mt-10">
+      <div className="max-w-7xl mt-10 mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Removed mt-10 to align with the section */}
+        <div className="flex justify-between items-center text-start">
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link

@@ -18,31 +18,31 @@ export default function Homepage() {
       <Helmet>
         <title>Codew | Home</title>
       </Helmet>
-
       <div
-        data-aos="fade-up"
-        data-aos-duration="900"
-        className=" ml-5   block justify-between md:ml-14 m-auto items-center text-start mt-44"
-      >
-        <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
-          Unleash and advance <br />
-          your business or project
-          <br /> to the furthest limits <br />
-          possibilitie with codew{" "}
-        </h1>
-        <p className="text-neutral-600 text-xl lg:text-xl font-Text mt-6">
-          Transform your ideas into a fully interactive and engaging <br />
-          website with our expert front-end development tailored to <br />
-          meet your specific needs.
-        </p>
-        <Link
-          to="/Choseservice"
-          className="text-white font-Text text-lg bg-black relative top-10 pl-10 pr-10 pt-3 pb-3  rounded-sm hover:bg-neutral-900"
-          onClick={handleClick}
-        >
-          Get Started{" "}
-        </Link>
-      </div>
+  data-aos="fade-up"
+  data-aos-duration="900"
+  className="ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-44" // Adjust the mt-10 here
+>
+  <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
+    Unleash and advance <br />
+    your business or project
+    <br /> to the furthest limits <br />
+    possibilities with Codew
+  </h1>
+  <p className="text-neutral-600 text-xl lg:text-xl font-Text mt-6">
+    Transform your ideas into a fully interactive and engaging <br />
+    website with our expert front-end development tailored to <br />
+    meet your specific needs.
+  </p>
+  <Link
+    to="/Choseservice"
+    className="text-white font-Text text-lg bg-black relative top-10 pl-10 pr-10 pt-3 pb-3 rounded-sm hover:bg-neutral-900"
+    onClick={handleClick}
+  >
+    Get Started{" "}
+  </Link>
+</div>
+
       <div className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-72">
         <h1
           data-aos="fade-up"
