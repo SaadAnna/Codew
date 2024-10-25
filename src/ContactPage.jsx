@@ -40,7 +40,7 @@ export default function Contactpage() {
             </Helmet>
       <div      data-aos="fade-up"
         data-aos-duration="900"
-        className=" ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-44"
+        className=" block justify-center items-center text-start w-fit h-fit mx-auto ml-12 mt-52"
          >
         <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
           Let's collaborate
@@ -58,7 +58,7 @@ export default function Contactpage() {
           </Link>    
           
       </div>
-      <div className="block text-start justify-center items-center mt-72 lg:block lg:justify-center lg:items-center lg:text-center  lg:mt-80">
+      <div className="block text-start justify-center items-center mx-auto mt-72 lg:block lg:justify-center lg:items-center lg:text-center  lg:mt-80">
         <div      data-aos="fade-up"
         data-aos-duration="900" className="block text-center justify-center items-center   mt-28 ">
           <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
@@ -73,7 +73,7 @@ export default function Contactpage() {
         </div>
         <form      data-aos="fade-up"
         data-aos-duration="900"
-          className=" w-4/5 lg:w-fit lg:h-fit p-10  m-auto mt-44  flex flex-col justify-start items-start text-center  rounded-lg border border-solid border-neutral-200 pb-16 pt-16 pl-8 bg-transparent lg:m-auto  lg:flex lg:mt-24  lg:flex-col lg:justify-start lg:items-start lg:text-center  lg:rounded-lg lg:border lg:border-solid lg:border-neutral-200  lg:pb-16 lg:pt-16 lg:pl-8 lg:bg-transparent"
+          className=" w-4/5 lg:w-fit lg:h-fit p-10 mx-auto  m-auto mt-44  flex flex-col justify-start items-start text-center  rounded-lg border border-solid border-neutral-200 pb-16 pt-16 pl-8 bg-transparent lg:m-auto  lg:flex lg:mt-24  lg:flex-col lg:justify-start lg:items-start lg:text-center  lg:rounded-lg lg:border lg:border-solid lg:border-neutral-200  lg:pb-16 lg:pt-16 lg:pl-8 lg:bg-transparent"
           onSubmit={sendEmail}
         >
           <div className="block gap-7 w-full  lg:flex lg:gap-20">

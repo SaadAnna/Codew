@@ -40,7 +40,7 @@ export default function Shopifydetails() {
             </Helmet>
           <div  data-aos="fade-up"
         data-aos-duration="900" 
-        className="ml-5   block justify-between md:ml-14 m-auto items-center text-start mt-44"
+        className="block justify-center items-center text-start w-fit h-fit mx-auto ml-12 mt-52"
         >
             <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
             Request your custom <br /> shopify store            </h1>
@@ -53,7 +53,7 @@ export default function Shopifydetails() {
           </div>
           <form  data-aos="fade-up"
         data-aos-duration="900"
-            className="  w-4/5 lg:w-fit lg:h-fit p-10  m-auto mt-44  flex flex-col justify-start items-start text-start  rounded-lg border border-solid border-neutral-200 pb-16 pt-16 pl-8 bg-transparent  lg:flex lg:mt-52  lg:flex-col lg:justify-start lg:items-start lg:text-start  lg:rounded-lg lg:border lg:border-solid lg:border-neutral-200 lg:pb-3 lg:pt-3 lg:pl-8 lg:bg-transparent"
+            className="  w-4/5 lg:w-fit lg:h-fit p-10  mx-auto mt-44  flex flex-col justify-start items-start text-start  rounded-lg border border-solid border-neutral-200 pb-16 pt-16 pl-8 bg-transparent  lg:flex lg:mt-52  lg:flex-col lg:justify-start lg:items-start lg:text-start  lg:rounded-lg lg:border lg:border-solid lg:border-neutral-200 lg:pb-3 lg:pt-3 lg:pl-8 lg:bg-transparent"
             onSubmit={sendEmail}
           >
             <div className="block gap-7 w-full  lg:flex lg:justify-between">
@@ -175,14 +175,14 @@ export default function Shopifydetails() {
           </form>
           <div  data-aos="fade-up"
         data-aos-duration="900"
-        className="ml-5   block justify-between md:ml-14 m-auto items-center text-start mt-72"
+        className=" block justify-center items-center text-start mx-auto w-fit h-fit ml-12 mt-72"
          > 
     
           <h1 className="text-5xl font-bold text-black font-Text">Why Us?
           </h1>
           <p className="text-neutral-600 lowercase text-xl font-Text mt-5">Why Choose Our Shopify Development Services?</p>
           </div>
-          <div className="flex flex-wrap justify-center mt-32  gap-20">
+          <div className="flex flex-wrap justify-center mt-32  gap-20 mx-auto">
           
           <div  data-aos="fade-up"
         data-aos-duration="900" className="  m-auto mt-20 block text-start w-11/12 md:w-96 md:h-96 p-5 border border-solid border-neutral-200 rounded-lg lg:block lg:text-start lg:w-96 lg:h-72 lg:p-5 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg">
@@ -212,7 +212,7 @@ Custom features and integrations<br /> to enhance your store's  <br />capabiliti
             </p>
           </div>
          </div>
-          <div className="flex flex-wrap justify-center mt-10  gap-20">
+          <div className="flex flex-wrap justify-center mt-10 mx-auto  gap-20">
           
           <div  data-aos="fade-up"
         data-aos-duration="900" className="  m-auto mt-20 block text-start w-11/12 md:w-96 md:h-96 p-5 border border-solid border-neutral-200 rounded-lg lg:block lg:text-start lg:w-96 lg:h-72 lg:p-5 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg">
@@ -245,7 +245,7 @@ Dedicated assistance for updates<br /> maintenance, and future enhancements.
           <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  block mt-56 text-start ml-8 md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-14"
+        className="  block mt-56 text-start ml-12 mx-auto md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-12"
       >
         <div className=" mt-9  flex flex-col text-center justify-start items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
@@ -361,7 +361,7 @@ Dedicated assistance for updates<br /> maintenance, and future enhancements.
           </ul>
         </div>
       </div>
-      <hr className="w-11/12 mt-14 bg-neutral-200  m-auto " />
+      <hr className="w-11/12 mt-14 bg-neutral-200  mx-auto " />
       <div className=" mt-14 pb-10   text-center  block justify-start items-start lg:pb-10 lg:flex lg:justify-between lg:items-start lg:mt-14 lg:m-auto">
         <h3 className=" text-neutral-600 text-base font-Text block lg:ml-14 lg:text-neutral-600 lg:text-base lg:font-Text ">
           Build By Codew.

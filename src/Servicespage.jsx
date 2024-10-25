@@ -18,7 +18,7 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-44"
+        className="block justify-center items-center text-start w-fit h-fit mx-auto ml-12 mt-52 "
       >
         <h1
           data-aos="fade-up"
@@ -41,7 +41,7 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-52"
+        className=" block justify-center items-center text-start mx-auto w-fit h-fit ml-12 mt-72"
       >
         <h1 className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black">
           Our expertise{" "}
@@ -50,7 +50,7 @@ export default function Servicespage() {
           Our most important experience in the <br /> field of front-end design
         </p>
       </div>
-      <div className="block justify-center items-center mt-28 text-center lg:flex lg:justify-around lg:items-center lg:text-center lg:mt-32">
+      <div className="block mx-auto justify-center items-center mt-28 text-center lg:flex lg:justify-around lg:items-center lg:text-center lg:mt-32">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -250,7 +250,7 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className=" ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-52"
+        className=" block justify-center items-center text-start mx-auto w-fit h-fit ml-12 mt-72"
       >
         <h1
           data-aos="fade-up"
@@ -398,7 +398,7 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="flex justify-center items-center text-center mt-14"
+        className="flex justify-center items-center text-center mx-auto mt-14"
       >
         <Link
           to="/Choseservice"
@@ -411,7 +411,7 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-52"
+        className=" block justify-center items-center text-start mx-auto w-fit h-fit ml-12 mt-72"
       >
         <h1 className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black">
           Our process{" "}
@@ -422,11 +422,11 @@ export default function Servicespage() {
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center mt-32  gap-10">
+      <div className="flex flex-wrap justify-center mx-auto mt-32  gap-10">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="flex flex-col text-center items-center mt-9"
+          className="flex flex-col text-center items-center mt-9 mx-auto"
         >
           <div className="w-16 h-16 m-auto rounded-full mt-4 bg-neutral-300 flex items-center justify-center mb-4 z-10">
             <svg
@@ -455,7 +455,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="flex flex-col text-center items-center mt-9"
+          className="flex flex-col text-center items-center mt-9 mx-auto"
         >
           <div className="w-16 h-16 m-auto rounded-full mt-4 bg-neutral-300 flex items-center justify-center mb-4 z-10">
             <svg
@@ -483,7 +483,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="flex flex-col text-center items-center mt-9"
+          className="flex flex-col text-center items-center mt-9 mx-auto"
         >
           <div className="w-16 h-16 m-auto rounded-full mt-4 bg-neutral-300 flex items-center justify-center mb-4 z-10">
             <svg
@@ -515,7 +515,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="flex flex-col text-center items-center mt-9"
+          className="flex flex-col text-center items-center mt-9 mx-auto"
         >
           <div className="w-16 h-16 m-auto rounded-full mt-4 bg-neutral-300 flex items-center justify-center mb-4 z-10">
             <svg
@@ -545,7 +545,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="flex flex-col text-center items-center mt-9"
+          className="flex flex-col text-center items-center mt-9 mx-auto"
         >
           <div className="w-16 h-16 m-auto rounded-full mt-4 bg-neutral-300 flex items-center justify-center mb-4 z-10">
             <svg
@@ -577,7 +577,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="flex flex-col text-center items-center mt-9"
+          className="flex flex-col text-center items-center mt-9 mx-auto"
         >
           <div className="w-16 h-16 m-auto rounded-full mt-4 bg-neutral-300 flex items-center justify-center mb-4 z-10">
             <svg
@@ -610,7 +610,7 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-72 "
+        className="block justify-center items-center text-start w-fit h-fit ml-12 mt-52 "
       >
         <h1 className="font-Text text-black  mt-3 font-bold text-3xl md:text-5xl">
           Ready to elevate your front-end?
@@ -631,7 +631,7 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  block mt-56 text-start ml-8 md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-14"
+        className="  block mt-56 text-start ml-12 mx-auto md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-12"
       >
         <div className=" mt-9  flex flex-col text-center justify-start items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
@@ -747,7 +747,7 @@ export default function Servicespage() {
           </ul>
         </div>
       </div>
-      <hr className="w-11/12 mt-14 bg-neutral-200  m-auto " />
+      <hr className="w-11/12 mt-14 bg-neutral-200  mx-auto " />
       <div className=" mt-14 pb-10   text-center  block justify-start items-start lg:pb-10 lg:flex lg:justify-between lg:items-start lg:mt-14 lg:m-auto">
         <h3 className=" text-neutral-600 text-base font-Text block lg:ml-14 lg:text-neutral-600 lg:text-base lg:font-Text ">
           Build By Codew.

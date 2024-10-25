@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-transparent">
+    <nav className="bg-transparent max-w-[94%] mx-auto">
       <div className="max-w-7xl mt-10 mx-auto px-4 sm:px-6 lg:px-8">
         {/* Removed mt-10 to align with the section */}
         <div className="flex justify-between items-center text-start">
@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="flex-shrink-0">
               <Link
                 to="/Homepage"
-                className="text-4xl font-Text font-medium m-auto lg:text-4xl text-black md:ml-5"
+                className="text-4xl font-Text font-medium m-auto lg:text-4xl text-black"
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
                 Codew
@@ -32,7 +32,6 @@ const Navbar = () => {
               className="inline-flex items-center justify-center p-2 rounded-md text-black"
               aria-expanded={isOpen ? "true" : "false"}
             >
-              <span className="sr-only">Open main menu</span>
               {!isOpen ? (
                 <svg
                   className="block h-8 w-8"

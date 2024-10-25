@@ -14,52 +14,55 @@ export default function Homepage() {
     AOS.init();
   }, []);
   return (
-    <>
+  
+    
+    <div className="max-w-[94%] mx-auto">
+      
       <Helmet>
         <title>Codew | Home</title>
-      </Helmet>
+      </Helmet> 
       <div
   data-aos="fade-up"
   data-aos-duration="900"
-  className="ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-44" // Adjust the mt-10 here
+  className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 flex flex-col w-full h-full justify-start items-start justify-items-start text-start"
 >
-  <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
-    Unleash and advance <br />
-    your business or project
-    <br /> to the furthest limits <br />
-    possibilities with Codew
+  <h1 className="text-4xl font-Text font-medium  lg:text-6xl text-black">
+    Unleash and advance<br/>
+    your business or project<br/>
+    to the furthest limits<br/>
+    possibilities with Codew<br/>
   </h1>
   <p className="text-neutral-600 text-xl lg:text-xl font-Text mt-6">
-    Transform your ideas into a fully interactive and engaging <br />
-    website with our expert front-end development tailored to <br />
-    meet your specific needs.
+    Transform your ideas into a fully interactive and engaging<br/>
+    website with our expert front-end development tailored to<br/>
+    meet your specific needs.<br/>
   </p>
   <Link
     to="/Choseservice"
-    className="text-white font-Text text-lg bg-black relative top-10 pl-10 pr-10 pt-3 pb-3 rounded-sm hover:bg-neutral-900"
+    className="text-white font-Text text-lg  bg-black relative top-10 pl-10 pr-10 pt-3 pb-3 rounded-3xl hover:bg-neutral-900"
     onClick={handleClick}
   >
     Get Started{" "}
   </Link>
 </div>
 
-      <div className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-72">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-96 flex flex-col w-full h-full justify-start items-start justify-items-start text-center">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+          className="text-4xl font-Text font-medium lg:text-5xl text-black"
         >
           How it works?
         </h1>
         <p
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-neutral-600 text-lg lg:text-xl font-Text mt-6"
+          className="text-neutral-600  text-lg lg:text-xl font-Text mt-6"
         >
           Share your project. We handle the rest.
         </p>
       </div>
-      <div className="flex flex-wrap justify-center mt-32 items-center text-center  gap-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 flex flex-wrap justify-center items-center text-center  gap-20">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -71,7 +74,7 @@ export default function Homepage() {
           <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
             Design
           </h1>
-          <p className="text-neutral-600 text-lg lg:text-xl font-Text mt-4">
+          <p className="text-neutral-600 text-lg lg:text-lg font-Text mt-4">
             Designers create prototypes <br /> and mockups for your <br />
             approval.
           </p>
@@ -87,7 +90,7 @@ export default function Homepage() {
           <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
             Code
           </h1>
-          <p className="text-neutral-600 text-lg lg:text-xl font-Text mt-4">
+          <p className="text-neutral-600 text-lg lg:text-lg font-Text mt-4">
             We create clean code that <br /> meets all your needs to create{" "}
             <br /> your website.
           </p>
@@ -103,17 +106,17 @@ export default function Homepage() {
           <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
             Puplish
           </h1>
-          <p className="text-neutral-600 text-lg lg:text-xl font-Text mt-4">
+          <p className="text-neutral-600 text-lg lg:text-lg font-Text mt-4">
             We publish your site in all the search <br /> engines you want and
             it is <br /> reviewed every day.
           </p>
         </div>
       </div>
-      <div className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-52">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-96 flex flex-col w-full h-full justify-start items-start justify-items-start text-center">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+          className="text-4xl font-Text font-medium  leading-8 lg:text-5xl text-black"
         >
           What We Offer
         </h1>
@@ -126,7 +129,7 @@ export default function Homepage() {
         </p>
       </div>
      
-      <div className=" flex flex-wrap justify-center mt-32  gap-20">
+      <div className=" flex flex-wrap justify-start mx-auto mt-32  gap-20">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -187,7 +190,7 @@ export default function Homepage() {
           </p>
         </div>
       </div>
-      <div className=" flex flex-wrap justify-center mt-32  gap-20">
+      <div className=" flex flex-wrap justify-center mx-auto mt-32  gap-20">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -250,11 +253,11 @@ export default function Homepage() {
           </p>
         </div>
       </div>
-      <div className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-52">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-96 flex flex-col w-full h-full justify-start items-start justify-items-start text-center">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+          className=" text-4xl font-Text font-medium lg:text-5xl text-black"
         >
           What We've Built
         </h1>
@@ -266,7 +269,7 @@ export default function Homepage() {
           Bold designs, flawless execution.{" "}
         </p>
       </div>
-      <div className=" flex flex-wrap justify-center mt-32  gap-20">
+      <div className=" flex flex-wrap justify-start mx-auto mt-32  gap-20">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -354,7 +357,7 @@ export default function Homepage() {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center mt-32  gap-20">
+      <div className="flex flex-wrap justify-center mx-auto mt-32  gap-20">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -442,11 +445,11 @@ export default function Homepage() {
         </div>
       </div>
 
-      <div className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-52">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-96 flex flex-col w-full h-full justify-start items-start justify-items-start text-center">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+          className="text-4xl font-Text font-medium lg:text-5xl text-black"
         >
           What our customers say
         </h1>
@@ -458,7 +461,7 @@ export default function Homepage() {
           What they said about our work{" "}
         </p>
       </div>
-      <div className=" flex flex-wrap justify-center mt-32  gap-20">
+      <div className=" flex flex-wrap justify-start mx-auto mt-32  gap-20">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -585,7 +588,7 @@ export default function Homepage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  block mt-56 text-start ml-8 md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-14"
+        className="  block mt-56 text-start ml-12 mx-auto md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-12"
       >
         <div className=" mt-9  flex flex-col text-center justify-start items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
@@ -701,7 +704,7 @@ export default function Homepage() {
           </ul>
         </div>
       </div>
-      <hr className="w-11/12 mt-14 bg-neutral-200  m-auto " />
+      <hr className="w-11/12 mt-14 bg-neutral-200  mx-auto " />
       <div className=" mt-14 pb-10   text-center  block justify-start items-start lg:pb-10 lg:flex lg:justify-between lg:items-start lg:mt-14 lg:m-auto">
         <h3 className=" text-neutral-600 text-base font-Text block lg:ml-14 lg:text-neutral-600 lg:text-base lg:font-Text ">
           Build By Codew.
@@ -710,6 +713,6 @@ export default function Homepage() {
           Copyright © 2024 Codew App Company.
         </h3>
       </div>
-    </>
+    </div>
   );
 }

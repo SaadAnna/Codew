@@ -19,34 +19,34 @@ export default function Secondproject() {
                 <title>Codew | Project overview</title>
                 
             </Helmet>
-      <div className=' flex flex-col m-auto justify-center items-center mt-44 text-center'>
+      <div className=' flex flex-col mx-auto justify-center items-center mt-44 text-center'>
  
       <h1  data-aos="fade-up"
       loading="lazy"
         data-aos-duration="900" className='text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black'>Prinit
 :A site for everything <br /> related to print on <br /> demand.</h1>       </div>
       <img  data-aos="fade-up"
-        data-aos-duration="900" className="w-3/4  object-cover rounded-sm mt-24 m-auto" src={FifthProjectImage} />
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center m-auto text-start max-w-3xl mt-32'>
+        data-aos-duration="900" className="w-3/4  object-cover rounded-sm mt-24 mx-auto" src={FifthProjectImage} />
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start max-w-3xl mt-32'>
 
 <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600'>
 Looking to turn your designs into products or start your own custom merchandise store? Our print-on-demand website is your ultimate resource for everything you need to bring your creative ideas to life. Whether you’re an artist, entrepreneur, or just someone with a great idea, we make it easy to design, create, and sell high-quality products without any upfront costs or inventory.
 </h1>
  </div>
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center m-auto text-start max-w-3xl mt-14'>
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start max-w-3xl mt-14'>
 
 <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600'>
 Explore a wide range of customizable products—from apparel and accessories to home decor and more. Our easy-to-use platform allows you to upload your designs, choose your products, and have them printed and shipped directly to your customers, hassle-free. With no minimum orders and on-demand printing, you can scale your business on your own terms.</h1>
  </div>
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center m-auto text-start max-w-3xl mt-14'>
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start max-w-3xl mt-14'>
 
 <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600'>
 Stay ahead of the curve with our expert tips on design trends, marketing strategies, and the latest in e-commerce. Plus, gain access to real-time analytics, product mockups, and a supportive community of creators.</h1>
  </div>
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center m-auto text-start max-w-3xl mt-14'>
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start max-w-3xl mt-14'>
 
 <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600'>
@@ -57,7 +57,7 @@ Ready to start your print-on-demand journey? Let us help you create, sell, and g
  <div className="  ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-52">
 
 <h1 data-aos="fade-up"
-    data-aos-duration="900" className=" text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black">
+    data-aos-duration="900" className=" text-4xl font-Text font-medium mx-auto leading-8 lg:text-5xl text-black">
 More projects.
 </h1>
 <p data-aos="fade-up"
@@ -118,7 +118,7 @@ Read more              </Link> <svg className="w-7 h-w-7 text-black mt-8 dark:te
 <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  block mt-56 text-start ml-8 md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-14"
+        className="  block mt-56 text-start ml-12 mx-auto md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-12"
       >
         <div className=" mt-9  flex flex-col text-center justify-start items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
@@ -234,7 +234,7 @@ Read more              </Link> <svg className="w-7 h-w-7 text-black mt-8 dark:te
           </ul>
         </div>
       </div>
-      <hr className="w-11/12 mt-14 bg-neutral-200  m-auto " />
+      <hr className="w-11/12 mt-14 bg-neutral-200  mx-auto " />
       <div className=" mt-14 pb-10   text-center  block justify-start items-start lg:pb-10 lg:flex lg:justify-between lg:items-start lg:mt-14 lg:m-auto">
         <h3 className=" text-neutral-600 text-base font-Text block lg:ml-14 lg:text-neutral-600 lg:text-base lg:font-Text ">
           Build By Codew.

@@ -19,7 +19,7 @@ export default function Aboutpage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className=" ml-5 block justify-between md:ml-14 m-auto items-center text-start mt-44"
+        className=" block justify-center items-center text-start w-fit h-fit mx-auto ml-12 mt-52"
       >
         <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
           Get to know us more
@@ -30,7 +30,7 @@ export default function Aboutpage() {
         </p>
         <hr className="w-20 h-1 mt-7 bg-black  " />
       </div>
-      <div className=" block justify-center m-auto items-center text-center mt-72">
+      <div className=" block justify-center mx-auto items-center text-center mt-72">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
@@ -47,7 +47,7 @@ export default function Aboutpage() {
           Development Solution
         </h5>
       </div>
-      <div className=" w-11/12  m-auto lg:w-3/5 block text-start mt-52 justify-center items-center">
+      <div className=" w-11/12  mx-auto lg:w-3/5 block text-start mt-52 justify-center items-center">
         <p
           data-aos="fade-up"
           data-aos-duration="900"
@@ -108,7 +108,7 @@ export default function Aboutpage() {
           Business.{" "}
         </p>
       </div>
-      <div className=" block justify-center m-auto items-center text-center mt-72">
+      <div className=" block justify-center mx-auto items-center text-center mt-72">
       <h5
           data-aos="fade-up"
           data-aos-duration="900"
@@ -147,7 +147,7 @@ export default function Aboutpage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  block mt-56 text-start ml-8 md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-14"
+        className="  block mt-56 text-start ml-12 mx-auto md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-12"
       >
         <div className=" mt-9  flex flex-col text-center justify-start items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
@@ -263,7 +263,7 @@ export default function Aboutpage() {
           </ul>
         </div>
       </div>
-      <hr className="w-11/12 mt-14 bg-neutral-200  m-auto " />
+      <hr className="w-11/12 mt-14 bg-neutral-200  mx-auto " />
       <div className=" mt-14 pb-10   text-center  block justify-start items-start lg:pb-10 lg:flex lg:justify-between lg:items-start lg:mt-14 lg:m-auto">
         <h3 className=" text-neutral-600 text-base font-Text block lg:ml-14 lg:text-neutral-600 lg:text-base lg:font-Text ">
           Build By Codew.
