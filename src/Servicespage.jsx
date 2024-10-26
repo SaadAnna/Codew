@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { useEffect } from "react";
@@ -11,22 +12,21 @@ export default function Servicespage() {
     AOS.init();
   }, []);
   return (
-    <>
+    <div className="max-w-[94%] mx-auto">
       <Helmet>
         <title>Codew | Services</title>
       </Helmet>
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="block justify-center items-center text-start w-fit h-fit mx-auto ml-12 mt-52 "
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 flex flex-col w-full h-full justify-start items-start justify-items-start text-start "
       >
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black"
+          className="text-4xl font-Text font-medium lg:text-6xl text-black"
         >
-          Custom Front-End <br /> Development
-        </h1>
+  Get the best services from<br /> Codew and increase your <br /> project's chances of success.       </h1>
         <p
           data-aos="fade-up"
           data-aos-duration="900"
@@ -35,15 +35,13 @@ export default function Servicespage() {
           We create stunning, responsive, and high-performance
           <br /> front-end solutions tailored to your business needs.
         </p>
-
-        <hr className="w-20 h-1 mt-7  bg-black" />
       </div>
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className=" block justify-center items-center text-start mx-auto w-fit h-fit ml-12 mt-72"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-80 flex flex-col w-full h-full justify-start items-start justify-items-start text-start"
       >
-        <h1 className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black">
+        <h1 className="text-4xl font-Text font-medium leading-8 lg:text-5xl text-black">
           Our expertise{" "}
         </h1>
         <p className="text-neutral-600 text-lg lg:text-xl font-Text mt-6">
@@ -54,7 +52,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center m-auto cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
+          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
         >
           <svg
             className="w-10 h-10 m-auto mt-3 text-black dark:text-white"
@@ -74,7 +72,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center m-auto cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
+          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
         >
           <svg
             className="w-10 h-10 m-auto mt-3 text-black dark:text-white"
@@ -96,7 +94,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center m-auto cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
+          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
         >
           <svg
             className="w-10 h-10 m-auto mt-3 text-black dark:text-white"
@@ -130,7 +128,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center m-auto cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
+          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
         >
           <svg
             className="w-10 h-10 m-auto mt-3 text-black dark:text-white"
@@ -153,7 +151,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center m-auto cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
+          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
         >
           <svg
             className="w-10 h-10 m-auto mt-3 text-black dark:text-white"
@@ -174,7 +172,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center m-auto cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
+          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
         >
           <svg
             className="w-10 h-10 m-auto mt-3 text-black dark:text-white"
@@ -199,7 +197,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center m-auto cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
+          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
         >
           <svg
             className="w-10 h-10 m-auto mt-3 text-black dark:text-white"
@@ -226,7 +224,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center m-auto cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
+          className=" w-72 h-40 border border-solid border-neutral-200 rounded-lg block justify-center text-center mt-5 items-center cursor-pointer hover:bg-neutral-100 lg:w-44 lg:h-40 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg lg:block lg:justify-center lg:text-center lg:items-center  lg:cursor-pointer lg:hover:bg-neutral-100"
         >
           <svg
             className="w-10 h-10 m-auto mt-3 text-black dark:text-white"
@@ -250,12 +248,12 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className=" block justify-center items-center text-start mx-auto w-fit h-fit ml-12 mt-72"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 flex flex-col w-full h-full justify-start items-start justify-items-start text-start"
       >
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+          className="text-4xl font-Text font-medium leading-8 lg:text-5xl text-black"
         >
           Our services{" "}
         </h1>
@@ -270,11 +268,11 @@ export default function Servicespage() {
       </div>
 
      
-      <div className=" flex flex-wrap justify-center mt-32  gap-20">
+      <div className=" flex flex-wrap justify-center mt-32 gap-20  lg:gap-52 mx-auto">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="   w-11/12 m-auto p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
+          className="   w-11/12  p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
         >
           <svg
             className="w-14 h-14  mt-4 text-black dark:text-white"
@@ -291,7 +289,7 @@ export default function Servicespage() {
               clipRule="evenodd"
             />
           </svg>
-          <h1 className="text-3xl mt-3 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+          <h1 className="text-3xl mt-3 font-Text font-medium  leading-8 lg:text-3xl text-black">
             Create Modern User Interface
           </h1>
           <p className="text-neutral-600 lowercase font-normal text-xl font-Text mt-4">
@@ -302,7 +300,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="   w-11/12 m-auto p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
+          className="   w-11/12  p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
         >
           <svg
             className="w-14 h-14  mt-4 text-black dark:text-white"
@@ -322,7 +320,7 @@ export default function Servicespage() {
             />
           </svg>
 
-          <h1 className="text-3xl mt-3 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+          <h1 className="text-3xl mt-3 font-Text font-medium  leading-8 lg:text-3xl text-black">
             Front-End development
           </h1>
           <p className="text-neutral-600 lowercase font-normal text-xl font-Text mt-4">
@@ -331,11 +329,11 @@ export default function Servicespage() {
           </p>
         </div>
       </div>
-      <div className=" flex flex-wrap justify-center mt-32  gap-20">
+      <div className=" flex flex-wrap justify-center mt-32  gap-20 lg:gap-52 mx-auto">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="   w-11/12 m-auto p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
+          className="   w-11/12  p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
         >
           <svg
             className="w-14 h-14  mt-4 text-black dark:text-white"
@@ -355,7 +353,7 @@ export default function Servicespage() {
             />
           </svg>
 
-          <h1 className="text-3xl mt-3 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+          <h1 className="text-3xl mt-3 font-Text font-medium  leading-8 lg:text-3xl text-black">
             Performance Optimization
           </h1>
           <p className="text-neutral-600 lowercase font-normal text-xl font-Text mt-4">
@@ -366,7 +364,7 @@ export default function Servicespage() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="   w-11/12 m-auto p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
+          className="   w-11/12  p-5 mt-10 md:w-96 md:h-96 border border-solid border-neutral-200 lg:p-5 rounded-lg cursor-pointer"
         >
           <svg
             className="w-14 h-14  mt-4  text-black dark:text-white"
@@ -386,7 +384,7 @@ export default function Servicespage() {
             />
           </svg>
 
-          <h1 className="text-3xl mt-3 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+          <h1 className="text-3xl mt-3 font-Text font-medium  leading-8 lg:text-3xl text-black">
             Shopify App Development
           </h1>
           <p className="text-neutral-600 lowercase font-normal text-xl font-Text mt-4">
@@ -411,9 +409,9 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className=" block justify-center items-center text-start mx-auto w-fit h-fit ml-12 mt-72"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-72 flex flex-col w-full h-full justify-start items-start justify-items-start text-start "
       >
-        <h1 className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black">
+        <h1 className="text-4xl font-Text font-medium leading-8 lg:text-5xl text-black">
           Our process{" "}
         </h1>
         <p className="text-lg text-neutral-600 lg:text-lg font-Text mt-6">
@@ -422,7 +420,7 @@ export default function Servicespage() {
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center mx-auto mt-32  gap-10">
+      <div className="flex flex-wrap mt-72 mx-auto ">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -610,7 +608,7 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="block justify-center items-center text-start w-fit h-fit ml-12 mt-52 "
+        className="flex flex-col justify-start items-start text-start w-fit h-fit ml-12 mt-52 "
       >
         <h1 className="font-Text text-black  mt-3 font-bold text-3xl md:text-5xl">
           Ready to elevate your front-end?
@@ -756,6 +754,6 @@ export default function Servicespage() {
           Copyright © 2024 Codew App Company.
         </h3>
       </div>
-    </>
+    </div>
   );
 }

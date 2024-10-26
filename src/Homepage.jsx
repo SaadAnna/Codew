@@ -39,7 +39,7 @@ export default function Homepage() {
   </p>
   <Link
     to="/Choseservice"
-    className="text-white font-Text text-lg  bg-black relative top-10 pl-10 pr-10 pt-3 pb-3 rounded-3xl hover:bg-neutral-900"
+    className="text-white font-Text text-lg  bg-black relative top-10 pl-10 pr-10 pt-3 pb-3 rounded-sm hover:bg-neutral-900"
     onClick={handleClick}
   >
     Get Started{" "}

@@ -32,7 +32,7 @@ export default function Contactpage() {
     e.target.reset();
   }
   return (
-    <>
+    <div className="max-w-[94%] mx-auto">
         <Helmet>
                 
                 <title>Codew | Contact Us</title>
@@ -40,9 +40,9 @@ export default function Contactpage() {
             </Helmet>
       <div      data-aos="fade-up"
         data-aos-duration="900"
-        className=" block justify-center items-center text-start w-fit h-fit mx-auto ml-12 mt-52"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 flex flex-col w-full h-full justify-start items-start justify-items-start text-start"
          >
-        <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
+        <h1 className="text-4xl font-Text font-medium lg:text-6xl text-black">
           Let's collaborate
         </h1>
         <p className="text-neutral-600 text-xl lg:text-xl font-Text mt-6">
@@ -51,16 +51,16 @@ export default function Contactpage() {
         </p>
         <Link
             to="/Choseservice"
-            className="text-white font-Text text-lg bg-black relative top-10 p-3 rounded-sm hover:bg-neutral-900"
+            className="text-white font-Text text-lg  bg-black relative top-10 pl-10 pr-10 pt-3 pb-3 rounded-sm hover:bg-neutral-900"
             onClick={handleClick}
             >
             Get Started
           </Link>    
           
       </div>
-      <div className="block text-start justify-center items-center mx-auto mt-72 lg:block lg:justify-center lg:items-center lg:text-center  lg:mt-80">
+      <div className="flex flex-col text-start justify-center items-center mx-auto mt-72  lg:justify-center lg:items-center lg:text-center  lg:mt-80">
         <div      data-aos="fade-up"
-        data-aos-duration="900" className="block text-center justify-center items-center   mt-28 ">
+        data-aos-duration="900" className="flex flex-col text-center mx-auto justify-center items-center mt-28 ">
           <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
             Get In Touch.
           </h1>
@@ -73,7 +73,7 @@ export default function Contactpage() {
         </div>
         <form      data-aos="fade-up"
         data-aos-duration="900"
-          className=" w-4/5 lg:w-fit lg:h-fit p-10 mx-auto  m-auto mt-44  flex flex-col justify-start items-start text-center  rounded-lg border border-solid border-neutral-200 pb-16 pt-16 pl-8 bg-transparent lg:m-auto  lg:flex lg:mt-24  lg:flex-col lg:justify-start lg:items-start lg:text-center  lg:rounded-lg lg:border lg:border-solid lg:border-neutral-200  lg:pb-16 lg:pt-16 lg:pl-8 lg:bg-transparent"
+          className=" w-4/5 lg:w-fit lg:h-fit p-10 mx-auto mt-44  flex flex-col justify-start items-start text-center  rounded-lg border border-solid border-neutral-200 pb-16 pt-16 pl-8 bg-transparent  lg:flex lg:mt-24  lg:flex-col lg:justify-start lg:items-start lg:text-center  lg:rounded-lg lg:border lg:border-solid lg:border-neutral-200  lg:pb-16 lg:pt-16 lg:pl-8 lg:bg-transparent"
           onSubmit={sendEmail}
         >
           <div className="block gap-7 w-full  lg:flex lg:gap-20">
@@ -280,7 +280,7 @@ export default function Contactpage() {
           Copyright © 2024 Codew App Company.
         </h3>
       </div>
-    </>
+    </div>
   );
  
 }

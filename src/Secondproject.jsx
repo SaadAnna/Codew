@@ -13,7 +13,7 @@ export default function Secondproject() {
     AOS.init();
   }, []);
   return (
-    <>
+    <div className="max-w-[94%] mx-auto">
       <Helmet>
         <title>Codew | Project overview</title>
       </Helmet>
@@ -21,7 +21,7 @@ export default function Secondproject() {
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+          className="text-4xl font-Text font-medium  leading-8 lg:text-5xl text-black"
         >
           Naturalit :A site to buy <br />
           everything related to natural <br />
@@ -32,14 +32,14 @@ export default function Secondproject() {
         data-aos="fade-up"
         loading="lazy"
         data-aos-duration="900"
-        className="w-3/4  object-cover rounded-sm mt-24 mx-auto"
+        className="w-3/4  object-cover rounded-sm mt-44 mx-auto"
         src={FourthProjectImage}
       />
-      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mxx-auto text-start max-w-3xl mt-32">
-        <h1
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
+      <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600"
+          className="text-lg font-Text font-normal lg:text-xl text-neutral-600"
         >
           Welcome to your one-stop shop for all things natural and wholesome!
           Whether you're looking for organic pantry staples, farm-fresh produce,
@@ -47,11 +47,11 @@ export default function Secondproject() {
           natural foods to support a healthy and sustainable lifestyle.{" "}
         </h1>
       </div>
-      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start max-w-3xl mt-14">
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600"
+          className="text-lg font-Text font-normal lg:text-xl text-neutral-600"
         >
           From organic fruits and vegetables to minimally processed grains,
           nuts, and seeds, our store is dedicated to offering foods that are
@@ -61,11 +61,11 @@ export default function Secondproject() {
           standards.{" "}
         </h1>
       </div>
-      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start max-w-3xl mt-14">
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600"
+          className="text-lg font-Text font-normal lg:text-xl text-neutral-600"
         >
           Explore a variety of categories including organic groceries,
           gluten-free and plant-based options, superfoods, and more. Our
@@ -74,11 +74,11 @@ export default function Secondproject() {
           that fit your lifestyle.{" "}
         </h1>
       </div>
-      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start max-w-3xl mt-14">
+      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600"
+          className="text-lg font-Text font-normal lg:text-xl text-neutral-600"
         >
           With easy browsing, personalized recommendations, and community
           reviews, finding the right natural foods has never been simpler.
@@ -87,11 +87,12 @@ export default function Secondproject() {
         </h1>
       </div>
 
-      <div className="  ml-5 block justify-between md:ml-14 mx-auto items-center text-start mt-52">
-        <h1
+      <div 
+     className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 flex flex-col w-full h-full justify-start items-start justify-items-start text-start"
+     >        <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+          className=" text-4xl font-Text font-medium leading-8 lg:text-5xl text-black"
         >
           More projects.
         </h1>
@@ -103,16 +104,16 @@ export default function Secondproject() {
           Learn more about our projects{" "}
         </p>
       </div>
-      <div className="flex flex-wrap justify-center mt-32 mx-auto  gap-20">
+      <div className="flex flex-wrap justify-center mt-32 mx-auto  gap-52">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="w-11/12  md:w-96 md:h-96  border border-solid border-neutral-200 rounded-xl m-auto mt-14  block text-start p-4 hover:bg-neutral-100 cursor-pointer"
+          className="w-11/12  md:w-96 md:h-96  border border-solid border-neutral-200 rounded-xl  mt-14  block text-start p-4 hover:bg-neutral-100 cursor-pointer"
         >
           <sapn className="font-Text font-meduim text-lg text-neutral-500">
             Novembre, 2020
           </sapn>
-          <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+          <h1 className="text-3xl mt-4 font-Text font-medium  leading-8 lg:text-3xl text-black">
             Printit
           </h1>
           <p className="text-neutral-600 lowercase text-lg lg:text-xl font-Text mt-6">
@@ -150,12 +151,12 @@ export default function Secondproject() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="w-11/12  md:w-96 md:h-96  border border-solid border-neutral-200 rounded-xl mt-14 m-auto  block text-start p-4 hover:bg-neutral-100 cursor-pointer"
+          className="w-11/12  md:w-96 md:h-96  border border-solid border-neutral-200 rounded-xl mt-14   block text-start p-4 hover:bg-neutral-100 cursor-pointer"
         >
           <sapn className="font-Text font-meduim text-lg text-neutral-500">
             Octobre, 2022
           </sapn>
-          <h1 className="text-3xl mt-4 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
+          <h1 className="text-3xl mt-4 font-Text font-medium  leading-8 lg:text-3xl text-black">
             Monaro
           </h1>
           <p className="text-neutral-600 text-lg lowercase lg:text-xl font-Text mt-6">
@@ -320,6 +321,6 @@ export default function Secondproject() {
           Copyright © 2024 Codew App Company.
         </h3>
       </div>
-    </>
+    </div>
   );
 }

@@ -32,7 +32,7 @@ export default function Shopifydetails() {
         e.target.reset();
       }
       return (
-        <>
+        <div className="max-w-[94%] mx-auto">
         <Helmet>
                 
                 <title>Codew | Shopify Details</title>
@@ -40,21 +40,19 @@ export default function Shopifydetails() {
             </Helmet>
           <div  data-aos="fade-up"
         data-aos-duration="900" 
-        className="block justify-center items-center text-start w-fit h-fit mx-auto ml-12 mt-52"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 flex flex-col w-full h-full justify-start items-start justify-items-start text-start"
         >
-            <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
+            <h1 className="text-4xl font-Text font-medium  lg:text-6xl text-black">
             Request your custom <br /> shopify store            </h1>
             <p className="text-neutral-600 text-xl lg:text-xl font-Text mt-6">
             Fill out the form below to start your journey<br />
              towards a powerful, customized Shopify store.
             </p>
-    
-            <hr className="w-20 h-1 mt-7  bg-black" />
-          </div>
+              </div>
           <form  data-aos="fade-up"
         data-aos-duration="900"
-            className="  w-4/5 lg:w-fit lg:h-fit p-10  mx-auto mt-44  flex flex-col justify-start items-start text-start  rounded-lg border border-solid border-neutral-200 pb-16 pt-16 pl-8 bg-transparent  lg:flex lg:mt-52  lg:flex-col lg:justify-start lg:items-start lg:text-start  lg:rounded-lg lg:border lg:border-solid lg:border-neutral-200 lg:pb-3 lg:pt-3 lg:pl-8 lg:bg-transparent"
-            onSubmit={sendEmail}
+        className=" w-4/5 lg:w-fit lg:h-fit p-10 mx-auto mt-52  flex flex-col justify-start items-start text-start  rounded-lg border border-solid border-neutral-200 pb-16 pt-16 pl-8 bg-transparent  lg:flex lg:mt-72  lg:flex-col lg:justify-start lg:items-start lg:text-start  lg:rounded-lg lg:border lg:border-solid lg:border-neutral-200 lg:pb-3 lg:pt-3 lg:pl-8 lg:bg-transparent"
+        onSubmit={sendEmail}
           >
             <div className="block gap-7 w-full  lg:flex lg:justify-between">
               <div className="flex flex-col text-start">
@@ -175,7 +173,7 @@ export default function Shopifydetails() {
           </form>
           <div  data-aos="fade-up"
         data-aos-duration="900"
-        className=" block justify-center items-center text-start mx-auto w-fit h-fit ml-12 mt-72"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-72 flex flex-col w-full h-full justify-start items-start justify-items-start text-start"
          > 
     
           <h1 className="text-5xl font-bold text-black font-Text">Why Us?
@@ -185,7 +183,7 @@ export default function Shopifydetails() {
           <div className="flex flex-wrap justify-center mt-32  gap-20 mx-auto">
           
           <div  data-aos="fade-up"
-        data-aos-duration="900" className="  m-auto mt-20 block text-start w-11/12 md:w-96 md:h-96 p-5 border border-solid border-neutral-200 rounded-lg lg:block lg:text-start lg:w-96 lg:h-72 lg:p-5 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg">
+        data-aos-duration="900" className="  mx-auto mt-20 flex flex-col text-start w-11/12 md:w-96 md:h-96 p-5 border border-solid border-neutral-200 rounded-lg lg:flex lg:flex-col lg:text-start lg:w-96 lg:h-72 lg:p-5 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg">
           <div className="flex gap-4">
           <svg className="w-10 h-10 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 7h.01m3.486 1.513h.01m-6.978 0h.01M6.99 12H7m9 4h2.706a1.957 1.957 0 0 0 1.883-1.325A9 9 0 1 0 3.043 12.89 9.1 9.1 0 0 0 8.2 20.1a8.62 8.62 0 0 0 3.769.9 2.013 2.013 0 0 0 2.03-2v-.857A2.036 2.036 0 0 1 16 16Z"/>
@@ -199,7 +197,7 @@ Unique, responsive designs<br /> tailored to your brand and optimized for conver
           </div>
           
           <div  data-aos="fade-up"
-        data-aos-duration="900" className="  m-auto mt-20 block text-start w-11/12 md:w-96 md:h-96 p-5 border border-solid border-neutral-200 rounded-lg lg:block lg:text-start lg:w-96 lg:h-72 lg:p-5 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg">
+        data-aos-duration="900" className="  mx-auto mt-20 flex flex-col text-start w-11/12 md:w-96 md:h-96 p-5 border border-solid border-neutral-200 rounded-lg lg:block lg:text-start lg:w-96 lg:h-72 lg:p-5 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg">
           <div className="flex gap-4">
           <svg className="w-10 h-10 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"/>
@@ -215,7 +213,7 @@ Custom features and integrations<br /> to enhance your store's  <br />capabiliti
           <div className="flex flex-wrap justify-center mt-10 mx-auto  gap-20">
           
           <div  data-aos="fade-up"
-        data-aos-duration="900" className="  m-auto mt-20 block text-start w-11/12 md:w-96 md:h-96 p-5 border border-solid border-neutral-200 rounded-lg lg:block lg:text-start lg:w-96 lg:h-72 lg:p-5 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg">
+        data-aos-duration="900" className="  mx-auto mt-20 flex flex-col text-start w-11/12 md:w-96 md:h-96 p-5 border border-solid border-neutral-200 rounded-lg lg:block lg:text-start lg:w-96 lg:h-72 lg:p-5 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg">
           <div className="flex gap-4">
           <svg className="w-10 h-10 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
   <path fillRule="evenodd" d="M20.337 3.664c.213.212.354.486.404.782.294 1.711.657 5.195-.906 6.76-1.77 1.768-8.485 5.517-10.611 6.683a.987.987 0 0 1-1.176-.173l-.882-.88-.877-.884a.988.988 0 0 1-.173-1.177c1.165-2.126 4.913-8.841 6.682-10.611 1.562-1.563 5.046-1.198 6.757-.904.296.05.57.191.782.404ZM5.407 7.576l4-.341-2.69 4.48-2.857-.334a.996.996 0 0 1-.565-1.694l2.112-2.111Zm11.357 7.02-.34 4-2.111 2.113a.996.996 0 0 1-1.69-.565l-.422-2.807 4.563-2.74Zm.84-6.21a1.99 1.99 0 1 1-3.98 0 1.99 1.99 0 0 1 3.98 0Z" clipRule="evenodd"/>
@@ -228,7 +226,7 @@ Fast-loading, SEO-friendly store<br /> s for better user experience and search r
           </div>
           
           <div  data-aos="fade-up"
-        data-aos-duration="900" className="  m-auto mt-20 block text-start w-11/12 md:w-96 md:h-96 p-5 border border-solid border-neutral-200 rounded-lg lg:block lg:text-start lg:w-96 lg:h-72 lg:p-5 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg">
+        data-aos-duration="900" className="  mx-auto mt-20 flex flex-col text-start w-11/12 md:w-96 md:h-96 p-5 border border-solid border-neutral-200 rounded-lg lg:block lg:text-start lg:w-96 lg:h-72 lg:p-5 lg:border lg:border-solid lg:border-neutral-200 lg:rounded-lg">
           <div className="flex gap-4">
           <svg className="w-10 h-10 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
   <path fillRule="evenodd" d="M12 2c-.791 0-1.55.314-2.11.874l-.893.893a.985.985 0 0 1-.696.288H7.04A2.984 2.984 0 0 0 4.055 7.04v1.262a.986.986 0 0 1-.288.696l-.893.893a2.984 2.984 0 0 0 0 4.22l.893.893a.985.985 0 0 1 .288.696v1.262a2.984 2.984 0 0 0 2.984 2.984h1.262c.261 0 .512.104.696.288l.893.893a2.984 2.984 0 0 0 4.22 0l.893-.893a.985.985 0 0 1 .696-.288h1.262a2.984 2.984 0 0 0 2.984-2.984V15.7c0-.261.104-.512.288-.696l.893-.893a2.984 2.984 0 0 0 0-4.22l-.893-.893a.985.985 0 0 1-.288-.696V7.04a2.984 2.984 0 0 0-2.984-2.984h-1.262a.985.985 0 0 1-.696-.288l-.893-.893A2.984 2.984 0 0 0 12 2Zm3.683 7.73a1 1 0 1 0-1.414-1.413l-4.253 4.253-1.277-1.277a1 1 0 0 0-1.415 1.414l1.985 1.984a1 1 0 0 0 1.414 0l4.96-4.96Z" clipRule="evenodd"/>
@@ -370,6 +368,6 @@ Dedicated assistance for updates<br /> maintenance, and future enhancements.
           Copyright © 2024 Codew App Company.
         </h3>
       </div>
-        </>
+        </div>
       );
 }

@@ -13,7 +13,7 @@ export default function Secondproject() {
     AOS.init();
   }, []);
   return (
-    <>
+    <div  className="max-w-[94%] mx-auto">
       <Helmet>
         <title>Codew | Project overview</title>
       </Helmet>
@@ -22,7 +22,7 @@ export default function Secondproject() {
           data-aos="fade-up"
           loading="lazy"
           data-aos-duration="900"
-          className="text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+          className="text-4xl font-Text font-medium leading-8 lg:text-5xl text-black"
         >
           Power gym :A website dedicated to <br /> everything related to
           weightlifting <br /> and sports.{" "}
@@ -31,14 +31,14 @@ export default function Secondproject() {
       <img
         data-aos="fade-up"
         data-aos-duration="900"
-        className="w-3/4  object-cover rounded-sm mt-24 mx-auto"
+        className="w-3/4  object-cover rounded-sm mt-44 mx-auto"
         src={ThirdProjectImage}
       />
-      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start max-w-3xl mt-32">
+      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start  mt-32">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600"
+          className="text-lg font-Text font-normal lg:text-xl text-neutral-600"
         >
           Whether you're a seasoned lifter or just starting your fitness
           journey, our website is your go-to resource for everything related to
@@ -47,11 +47,11 @@ export default function Secondproject() {
           everything you need to push your limits and reach new heights.
         </h1>
       </div>
-      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start max-w-3xl mt-14">
+      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start  mt-14">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600"
+          className="text-lg font-Text font-normal lg:text-xl text-neutral-600"
         >
           Explore our vast collection of articles, video tutorials, and
           personalized workout plans, all designed to help you optimize your
@@ -60,11 +60,11 @@ export default function Secondproject() {
           athletes sharing real-life stories, advice, and motivation.
         </h1>
       </div>
-      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start max-w-3xl mt-14">
+      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start  mt-14">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600"
+          className="text-lg font-Text font-normal lg:text-xl text-neutral-600"
         >
           Ready to unlock your full potential? Dive into our expert-curated
           content, stay up to date with the latest sports news, and access
@@ -73,11 +73,11 @@ export default function Secondproject() {
           performance, we’re here to guide you every step of the way.{" "}
         </h1>
       </div>
-      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start max-w-3xl mt-14">
+      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start  mt-14">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className="text-lg font-Text font-normal m-auto lg:text-xl text-neutral-600"
+          className="text-lg font-Text font-normal lg:text-xl text-neutral-600"
         >
           Join us and discover how you can elevate your fitness, transform your
           body, and push your limits with confidence. Your ultimate sports and
@@ -85,11 +85,12 @@ export default function Secondproject() {
         </h1>
       </div>
 
-      <div className="  ml-5 block justify-between md:ml-14 mx-auto items-center text-start mt-52">
-        <h1
+      <div 
+     className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 flex flex-col w-full h-full justify-start items-start justify-items-start text-start"
+     >          <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" text-4xl font-Text font-medium m-auto leading-8 lg:text-5xl text-black"
+          className=" text-4xl font-Text font-medium leading-8 lg:text-5xl text-black"
         >
           More projects.
         </h1>
@@ -101,7 +102,7 @@ export default function Secondproject() {
           Learn more about our projects{" "}
         </p>
       </div>
-      <div className="flex flex-wrap justify-center mt-32  gap-20">
+      <div className="flex flex-wrap justify-center mt-32  gap-52">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -318,6 +319,6 @@ export default function Secondproject() {
           Copyright © 2024 Codew App Company.
         </h3>
       </div>
-    </>
+    </div>
   );
 }

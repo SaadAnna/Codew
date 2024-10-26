@@ -12,25 +12,24 @@ export default function Aboutpage() {
     AOS.init();
   }, []);
   return (
-    <>
+    <div className="max-w-[94%] mx-auto">
       <Helmet>
         <title>Codew | About Us</title>
       </Helmet>
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className=" block justify-center items-center text-start w-fit h-fit mx-auto ml-12 mt-52"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 flex flex-col w-full h-full justify-start items-start justify-items-start text-start"
       >
-        <h1 className="text-4xl font-Text font-medium m-auto lg:text-6xl text-black">
+        <h1 className="text-4xl font-Text font-medium lg:text-6xl text-black">
           Get to know us more
         </h1>
         <p className="text-neutral-600 text-xl lg:text-xl font-Text mt-6">
           Get To Know Us More, Gain More Trust In Us
           <br /> To Transform Your Idea Into A Real Website
         </p>
-        <hr className="w-20 h-1 mt-7 bg-black  " />
       </div>
-      <div className=" block justify-center mx-auto items-center text-center mt-72">
+      <div className=" flex flex-col justify-center mx-auto items-center text-center mt-72">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
@@ -47,7 +46,7 @@ export default function Aboutpage() {
           Development Solution
         </h5>
       </div>
-      <div className=" w-11/12  mx-auto lg:w-3/5 block text-start mt-52 justify-center items-center">
+      <div className="  mx-auto lg:w-3/5 block text-start mt-52 justify-center items-center">
         <p
           data-aos="fade-up"
           data-aos-duration="900"
@@ -108,18 +107,18 @@ export default function Aboutpage() {
           Business.{" "}
         </p>
       </div>
-      <div className=" block justify-center mx-auto items-center text-center mt-72">
+      <div className=" flex flex-col justify-center mx-auto items-center text-center mt-72">
       <h5
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" text-3xl lg:text-5xl lowercase font-Text font-semibold   text-black"
+          className=" text-3xl lg:text-5xl lowercase font-Text font-semibold text-black"
         >
           Transform Your Ideas with codew
         </h5>
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" text-xl lg:text-xl font-Text font-normal mt-12  text-neutral-600"
+          className=" text-xl lg:text-xl font-Text font-normal mt-12 text-neutral-600"
         >
           Partner with us to create stunning <br/> digital experiences.
         </h1>
@@ -272,6 +271,6 @@ export default function Aboutpage() {
           Copyright © 2024 Codew App Company.
         </h3>
       </div>
-    </>
+    </div>
   );
 }

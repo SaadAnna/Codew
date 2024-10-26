@@ -11,14 +11,14 @@ export default function Choseservice() {
     AOS.init();
   }, []);
     return (
-        <>
+        <div className="max-w-[94%] mx-auto">
             <Helmet>
                 
                 <title>Codew | Chose Service</title>
                 
             </Helmet>
         <div  data-aos="fade-up"
-        data-aos-duration="900"className="block justify-center items-center text-center mt-72 mx-auto">
+        data-aos-duration="900"className="flex flex-col justify-center items-center text-center mt-72 mx-auto">
         <h1  className="text-4xl font-Text font-bold lg:text-5xl text-black">
 Welocome To Codew!
         </h1>
@@ -27,7 +27,7 @@ Welocome To Codew!
         </p>
         </div>
         <div data-aos="fade-up"
-        data-aos-duration="900" className="gap-2 flex lg:gap-10 justify-center m-auto text-center mx-auto items-center mt-52">
+        data-aos-duration="900" className="gap-2 flex lg:gap-10 justify-center text-center mx-auto items-center mt-32">
         <Link
           to="/Projectdetails"
           className="text-white font-Text text-lg bg-black relative p-2 lg:p-3  hover:bg-neutral-900"
@@ -172,6 +172,6 @@ Welocome To Codew!
           Copyright © 2024 Codew App Company.
         </h3>
       </div>
-      </>
+      </div>
     )
 }

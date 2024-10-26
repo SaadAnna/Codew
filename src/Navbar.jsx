@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="flex-shrink-0">
               <Link
                 to="/Homepage"
-                className="text-4xl font-Text font-medium m-auto lg:text-4xl text-black"
+                className="text-4xl font-Text font-medium lg:text-4xl text-black"
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
                 Codew
