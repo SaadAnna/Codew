@@ -39,7 +39,7 @@ export default function Projectdetails() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 flex flex-col w-full h-full justify-start items-start justify-items-start text-start"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-40 flex flex-col w-full h-full justify-start items-start justify-items-start text-start"
       >
         <h1 className="text-4xl font-Text font-medium lg:text-6xl text-black">
           Start your project
@@ -194,7 +194,7 @@ export default function Projectdetails() {
           required
         />
         <input
-          className="font-normal font-Text text-white mt-5   text-xl m-auto w-full h-fit pl-20 pr-20 cursor-pointer  pt-2 pb-2 rounded-lg bg-black out-of-range:-none hover:bg-neutral-900"
+          className="font-normal font-Text text-white mt-5 text-xl mx-auto w-full h-fit pl-20 pr-20 cursor-pointer  pt-2 pb-2 rounded-lg bg-black hover:bg-neutral-900"
           type="submit"
           value="Submit"
         />
@@ -211,11 +211,11 @@ export default function Projectdetails() {
           Our streamlined process to kickstart your project
         </p>
       </div>
-      <div className="flex flex-wrap justify-center mt-32  gap-56 mx-auto">
+      <div className=" max-w-7xl px-4 sm:px-6 lg:px-8  flex flex-col w-full h-full flex-wrap justify-center mt-32 gap-20   lg:gap-56 mx-auto">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" ml-5 block text-start gap-5 mt-16 lg:flex lg:gap-5 "
+          className="  block text-start gap-5 mt-10 lg:flex lg:gap-5 "
         >
           <div className="w-fit mb-4 h-fit p-3 rounded-full bg-black">
             <svg
@@ -244,7 +244,7 @@ export default function Projectdetails() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="ml-5 block text-start gap-5 mt-16 lg:flex lg:gap-5 "
+          className=" block text-start gap-5  lg:flex lg:gap-5 "
         >
           <div className="w-fit mb-4 h-fit p-3 rounded-full bg-black">
             <svg
@@ -275,11 +275,11 @@ export default function Projectdetails() {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center mt-32  gap-56 mx-auto">
+      <div className=" max-w-7xl px-4 sm:px-6 lg:px-8  flex flex-col w-full h-full flex-wrap justify-center mt-32 gap-20   lg:gap-56 mx-auto">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="ml-5 block text-start gap-5 mt-16 lg:flex lg:gap-5 "
+          className=" block text-start gap-5 lg:flex lg:gap-5 "
         >
           <div className="w-fit mb-4 h-fit p-3 rounded-full bg-black">
             <svg
@@ -308,7 +308,7 @@ export default function Projectdetails() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="ml-5 block text-start gap-5 mt-16 lg:flex lg:gap-5 "
+          className=" block text-start gap-5 lg:flex lg:gap-5 "
         >
           <div className="w-fit h-fit p-3 mb-4 rounded-full bg-black">
             <svg
@@ -342,7 +342,7 @@ export default function Projectdetails() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  block mt-56 text-start ml-12 mx-auto md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-12"
+        className="flex flex-col mt-56 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:flex md:flex-row  md:justify-between md:items-center md:text-center lg:mt-72"
       >
         <div className=" mt-9  flex flex-col text-center justify-start items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>

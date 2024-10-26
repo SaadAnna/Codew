@@ -19,7 +19,7 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 flex flex-col w-full h-full justify-start items-start justify-items-start text-start "
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-40 flex flex-col w-full h-full justify-start items-start justify-items-start text-start "
       >
         <h1
           data-aos="fade-up"
@@ -48,7 +48,7 @@ export default function Servicespage() {
           Our most important experience in the <br /> field of front-end design
         </p>
       </div>
-      <div className="block mx-auto justify-center items-center mt-28 text-center lg:flex lg:justify-around lg:items-center lg:text-center lg:mt-32">
+      <div className="flex flex-col mx-auto justify-center items-center mt-28 text-center lg:flex lg:flex-row lg:justify-around lg:items-center lg:text-center lg:mt-32">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -147,7 +147,7 @@ export default function Servicespage() {
           </h4>
         </div>
       </div>
-      <div className="block justify-center items-center mt-14 text-center lg:flex lg:justify-around lg:items-center lg:text-center lg:mt-14">
+      <div className="flex flex-col mx-auto justify-center items-center mt-28 text-center lg:flex lg:flex-row lg:justify-around lg:items-center lg:text-center lg:mt-32">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -608,7 +608,7 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="flex flex-col justify-start items-start text-start w-fit h-fit ml-12 mt-52 "
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 flex flex-col w-full h-full justify-start items-start justify-items-start text-start  "
       >
         <h1 className="font-Text text-black  mt-3 font-bold text-3xl md:text-5xl">
           Ready to elevate your front-end?
@@ -629,7 +629,7 @@ export default function Servicespage() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  block mt-56 text-start ml-12 mx-auto md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-12"
+        className="flex flex-col mt-56 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:flex md:flex-row  md:justify-between md:items-center md:text-center lg:mt-72"
       >
         <div className=" mt-9  flex flex-col text-center justify-start items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>

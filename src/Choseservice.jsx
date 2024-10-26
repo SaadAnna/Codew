@@ -18,7 +18,7 @@ export default function Choseservice() {
                 
             </Helmet>
         <div  data-aos="fade-up"
-        data-aos-duration="900"className="flex flex-col justify-center items-center text-center mt-72 mx-auto">
+        data-aos-duration="900"className="flex flex-col justify-center items-center text-center mt-40 mx-auto">
         <h1  className="text-4xl font-Text font-bold lg:text-5xl text-black">
 Welocome To Codew!
         </h1>
@@ -27,10 +27,10 @@ Welocome To Codew!
         </p>
         </div>
         <div data-aos="fade-up"
-        data-aos-duration="900" className="gap-2 flex lg:gap-10 justify-center text-center mx-auto items-center mt-32">
+        data-aos-duration="900" className="gap-10 md:flex md:flex-row flex flex-col lg:gap-10 justify-center text-center mx-auto items-center mt-32">
         <Link
           to="/Projectdetails"
-          className="text-white font-Text text-lg bg-black relative p-2 lg:p-3  hover:bg-neutral-900"
+          className="text-white font-Text text-lg bg-black relative p-3 lg:p-3 rounded-sm  hover:bg-neutral-900"
           onClick={handleClick}
           >
          Create Project
@@ -47,7 +47,7 @@ Welocome To Codew!
         <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  block mt-56 text-start ml-12 mx-auto md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-12"
+        className="flex flex-col mt-56 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:flex md:flex-row  md:justify-between md:items-center md:text-center lg:mt-72"
       >
         <div className=" mt-9  flex flex-col text-center justify-start items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
@@ -172,6 +172,6 @@ Welocome To Codew!
           Copyright © 2024 Codew App Company.
         </h3>
       </div>
-      </div>
+    </div>
     )
 }

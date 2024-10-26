@@ -20,7 +20,7 @@ export default function Firstproject() {
                 <title>Codew | Project overview</title>
                 
             </Helmet>
-      <div className=' flex flex-col  justify-center items-center mx-auto mt-44 text-center'>
+      <div className=' flex flex-col  justify-center items-center mx-auto mt-40 text-center'>
 
       <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-4xl font-Text font-medium leading-8 lg:text-5xl text-black'>Monaro:A site that provides <br />  information about travel  <br /> and trips.</h1>
@@ -116,7 +116,7 @@ Read more              </Link> <svg className="w-7 h-w-7 text-black mt-8 dark:te
 <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="  block mt-56 text-start ml-12 mx-auto md:flex md:justify-between md:items-center md:text-center lg:mt-72 lg:ml-12"
+        className="flex flex-col mt-56 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:flex md:flex-row  md:justify-between md:items-center md:text-center lg:mt-72"
       >
         <div className=" mt-9  flex flex-col text-center justify-start items-start">
           <h1 className="text-2xl font-Text font-medium  text-black">Codew</h1>
@@ -241,8 +241,6 @@ Read more              </Link> <svg className="w-7 h-w-7 text-black mt-8 dark:te
           Copyright © 2024 Codew App Company.
         </h3>
       </div>
-  
-    
-      </div>
+    </div>
     )
 }
