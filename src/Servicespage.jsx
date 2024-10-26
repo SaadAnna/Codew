@@ -420,7 +420,7 @@ export default function Servicespage() {
         </p>
       </div>
 
-      <div className="flex flex-wrap mt-72 mx-auto ">
+      <div className="flex flex-wrap mt-40 mx-auto ">
         <div
           data-aos="fade-up"
           data-aos-duration="900"

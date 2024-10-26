@@ -46,7 +46,7 @@ export default function Homepage() {
   </Link>
 </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-96 flex flex-col w-full h-full justify-start items-start justify-items-start text-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-96 flex flex-col w-full h-full justify-start items-start justify-items-start text-start">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
