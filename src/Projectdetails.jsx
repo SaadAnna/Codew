@@ -211,19 +211,19 @@ export default function Projectdetails() {
           Our streamlined process to kickstart your project
         </p>
       </div>
-      <div className=" max-w-7xl px-4 sm:px-6 lg:px-8  flex flex-col w-full h-full flex-wrap justify-center mt-32 gap-20   lg:gap-56 mx-auto">
+      <div className=" max-w-7xl px-4 sm:px-6 lg:px-8  flex  flex-wrap justify-items-center itmes-center mt-44 gap-20   lg:gap-56 mx-auto">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className="  block text-start gap-5 mt-10 lg:flex lg:gap-5 "
+          className="  block text-start gap-5 lg:flex lg:gap-5 "
         >
-          <div className="w-fit mb-4 h-fit p-3 rounded-full bg-black">
+          <div className=" w-fit h-fit  p-3 rounded-full bg-black">
             <svg
               className="w-8 h-8 text-white dark:text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+            
+              
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -275,7 +275,7 @@ export default function Projectdetails() {
           </div>
         </div>
       </div>
-      <div className=" max-w-7xl px-4 sm:px-6 lg:px-8  flex flex-col w-full h-full flex-wrap justify-center mt-32 gap-20   lg:gap-56 mx-auto">
+      <div className=" max-w-7xl px-4 sm:px-6 lg:px-8  flex  flex-wrap justify-items-center itmes-center mt-44 gap-20   lg:gap-56 mx-auto">
         <div
           data-aos="fade-up"
           data-aos-duration="900"

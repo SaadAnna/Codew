@@ -28,27 +28,31 @@ export default function Firstproject() {
       <img  data-aos="fade-up"
       loading="lazy"
         data-aos-duration="900" className="w-3/4 object-cover rounded-sm mt-32 mx-auto" src={FisrtProjectImage} />
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
+      <div  data-aos="fade-up"
+        data-aos-duration="900"   className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
 
 <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-lg font-Text font-normal lg:text-xl text-neutral-600'>
         Discover the wonders of the world with our comprehensive travel and trip planning website. Whether you're a seasoned globetrotter or a first-time explorer, we provide everything you need to make your journey seamless and unforgettable. From destination guides and insider travel tips to the latest on trending spots and hidden gems, we’re your go-to source for all things travel.
         </h1>
  </div>
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
+      <div  data-aos="fade-up"
+        data-aos-duration="900" className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
 
 <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-lg font-Text font-normal lg:text-xl text-neutral-600'>
 Dive deep into expert-curated itineraries, local cultural insights, and personalized trip recommendations tailored to your interests. Our platform connects you with essential resources like flight deals, accommodation options, transportation guides, and activity bookings, all in one place.        </h1>
  </div>
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
+      <div  data-aos="fade-up"
+        data-aos-duration="900" className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
 
 <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-lg font-Text font-normal lg:text-xl text-neutral-600'>
 For adventurers seeking unique experiences, our community-driven reviews, blogs, and photos offer real-life perspectives that help you plan the perfect trip. Whether you're dreaming of a peaceful escape, a vibrant city break, or an off-the-beaten-path adventure, we’re here to inspire and guide your every step.
     </h1>
  </div>
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
+      <div  data-aos="fade-up"
+        data-aos-duration="900" className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
 
 <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-lg font-Text font-normal lg:text-xl text-neutral-600'>
@@ -66,7 +70,8 @@ More projects.
         data-aos-duration="900" className="text-neutral-600 text-lg lg:text-xl font-Text mt-6">
 Learn more about our projects        </p>
 </div>
-<div className="flex flex-wrap justify-center mt-44 mx-auto  gap-52">
+<div  data-aos="fade-up"
+        data-aos-duration="900" className="flex flex-wrap justify-center mt-44 mx-auto  gap-52">
 <div data-aos="fade-up"
     data-aos-duration="900" className="w-11/12  md:w-96 md:h-96 border border-solid border-neutral-200 rounded-xl mx-auto mt-14  block text-start p-4 hover:bg-neutral-100 cursor-pointer">
   <sapn className="font-Text font-meduim text-lg text-neutral-500">Novembre, 2020</sapn>

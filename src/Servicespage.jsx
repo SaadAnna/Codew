@@ -26,7 +26,9 @@ export default function Servicespage() {
           data-aos-duration="900"
           className="text-4xl font-Text font-medium lg:text-6xl text-black"
         >
-  Get the best services from<br /> Codew and increase your <br /> project's chances of success.       </h1>
+          Get the best services from
+          <br /> Codew and increase your <br /> project's chances of success.{" "}
+        </h1>
         <p
           data-aos="fade-up"
           data-aos-duration="900"
@@ -48,7 +50,7 @@ export default function Servicespage() {
           Our most important experience in the <br /> field of front-end design
         </p>
       </div>
-      <div className="flex flex-col mx-auto justify-center items-center mt-28 text-center lg:flex lg:flex-row lg:justify-around lg:items-center lg:text-center lg:mt-32">
+      <div className="flex flex-wrap justify-center mt-32 mx-auto gap-20 justify-items-center items-center">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -147,7 +149,7 @@ export default function Servicespage() {
           </h4>
         </div>
       </div>
-      <div className="flex flex-col mx-auto justify-center items-center mt-28 text-center lg:flex lg:flex-row lg:justify-around lg:items-center lg:text-center lg:mt-32">
+      <div className="flex flex-wrap justify-center mt-44 mx-auto gap-20 justify-items-center items-center">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
@@ -267,7 +269,6 @@ export default function Servicespage() {
         </p>
       </div>
 
-     
       <div className=" flex flex-wrap justify-center mt-32 gap-20  lg:gap-52 mx-auto">
         <div
           data-aos="fade-up"
@@ -388,7 +389,8 @@ export default function Servicespage() {
             Shopify App Development
           </h1>
           <p className="text-neutral-600 lowercase font-normal text-xl font-Text mt-4">
-          Development Shopify Applications and Stores with High-Quality And Add E-commerce Features 
+            Development Shopify Applications and Stores with High-Quality And
+            Add E-commerce Features
           </p>
         </div>
       </div>

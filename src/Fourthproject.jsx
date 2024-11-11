@@ -27,26 +27,30 @@ export default function Secondproject() {
 :A site for everything <br /> related to print on <br /> demand.</h1>       </div>
       <img  data-aos="fade-up"
         data-aos-duration="900" className="w-3/4  object-cover rounded-sm mt-44 mx-auto" src={FifthProjectImage} />
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
+      <div  data-aos="fade-up"
+        data-aos-duration="900" className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
 
 <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-lg font-Text font-normal  lg:text-xl text-neutral-600'>
 Looking to turn your designs into products or start your own custom merchandise store? Our print-on-demand website is your ultimate resource for everything you need to bring your creative ideas to life. Whether you’re an artist, entrepreneur, or just someone with a great idea, we make it easy to design, create, and sell high-quality products without any upfront costs or inventory.
 </h1>
  </div>
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
+      <div  data-aos="fade-up"
+        data-aos-duration="900" className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
 
 <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-lg font-Text font-normal  lg:text-xl text-neutral-600'>
 Explore a wide range of customizable products—from apparel and accessories to home decor and more. Our easy-to-use platform allows you to upload your designs, choose your products, and have them printed and shipped directly to your customers, hassle-free. With no minimum orders and on-demand printing, you can scale your business on your own terms.</h1>
  </div>
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
+      <div  data-aos="fade-up"
+        data-aos-duration="900" className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
 
 <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-lg font-Text font-normal  lg:text-xl text-neutral-600'>
 Stay ahead of the curve with our expert tips on design trends, marketing strategies, and the latest in e-commerce. Plus, gain access to real-time analytics, product mockups, and a supportive community of creators.</h1>
  </div>
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
+      <div  data-aos="fade-up"
+        data-aos-duration="900" className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
 
 <h1  data-aos="fade-up"
         data-aos-duration="900" className='text-lg font-Text font-normal  lg:text-xl text-neutral-600'>
@@ -65,7 +69,8 @@ More projects.
         data-aos-duration="900" className="text-neutral-600 text-lg lg:text-xl font-Text mt-6">
 Learn more about our projects        </p>
 </div>
-<div className="flex flex-wrap justify-center mt-32  gap-52">
+<div  data-aos="fade-up"
+        data-aos-duration="900" className="flex flex-wrap justify-center mt-32  gap-52">
 <div data-aos="fade-up"
     data-aos-duration="900" className="w-11/12  md:w-96 md:h-96  border border-solid border-neutral-200 rounded-xl mt-14   block text-start p-4 hover:bg-neutral-100 cursor-pointer">
   <sapn className="font-Text font-meduim text-lg text-neutral-500">Novembre, 2020</sapn>

@@ -34,7 +34,8 @@ export default function Secondproject() {
         className="w-3/4  object-cover rounded-sm mt-44 mx-auto"
         src={ThirdProjectImage}
       />
-      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start  mt-32">
+      <div  data-aos="fade-up"
+        data-aos-duration="900" className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start  mt-32">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
@@ -47,7 +48,8 @@ export default function Secondproject() {
           everything you need to push your limits and reach new heights.
         </h1>
       </div>
-      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start  mt-14">
+      <div  data-aos="fade-up"
+        data-aos-duration="900" className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start  mt-14">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
@@ -60,7 +62,8 @@ export default function Secondproject() {
           athletes sharing real-life stories, advice, and motivation.
         </h1>
       </div>
-      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start  mt-14">
+      <div  data-aos="fade-up"
+        data-aos-duration="900" className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start  mt-14">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
@@ -73,7 +76,8 @@ export default function Secondproject() {
           performance, we’re here to guide you every step of the way.{" "}
         </h1>
       </div>
-      <div className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start  mt-14">
+      <div  data-aos="fade-up"
+        data-aos-duration="900" className=" w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start  mt-14">
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
@@ -102,7 +106,8 @@ export default function Secondproject() {
           Learn more about our projects{" "}
         </p>
       </div>
-      <div className="flex flex-wrap justify-center mt-32  gap-52">
+      <div  data-aos="fade-up"
+        data-aos-duration="900" className="flex flex-wrap justify-center mt-32  gap-52">
         <div
           data-aos="fade-up"
           data-aos-duration="900"

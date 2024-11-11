@@ -35,7 +35,8 @@ export default function Secondproject() {
         className="w-3/4  object-cover rounded-sm mt-44 mx-auto"
         src={FourthProjectImage}
       />
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
+      <div  data-aos="fade-up"
+          data-aos-duration="900" className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
       <h1
           data-aos="fade-up"
           data-aos-duration="900"
@@ -47,7 +48,8 @@ export default function Secondproject() {
           natural foods to support a healthy and sustainable lifestyle.{" "}
         </h1>
       </div>
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
+      <div  data-aos="fade-up"
+          data-aos-duration="900" className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
@@ -61,7 +63,8 @@ export default function Secondproject() {
           standards.{" "}
         </h1>
       </div>
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
+      <div  data-aos="fade-up"
+          data-aos-duration="900" className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
@@ -74,7 +77,8 @@ export default function Secondproject() {
           that fit your lifestyle.{" "}
         </h1>
       </div>
-      <div className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-32'>
+      <div  data-aos="fade-up"
+          data-aos-duration="900" className=' w-3/4 h-fit bg-transparent flex flex-col items-center mx-auto text-start mt-14'>
         <h1
           data-aos="fade-up"
           data-aos-duration="900"
@@ -104,7 +108,8 @@ export default function Secondproject() {
           Learn more about our projects{" "}
         </p>
       </div>
-      <div className="flex flex-wrap justify-center mt-32 mx-auto  gap-52">
+      <div  data-aos="fade-up"
+          data-aos-duration="900" className="flex flex-wrap justify-center mt-32 mx-auto  gap-52">
         <div
           data-aos="fade-up"
           data-aos-duration="900"
