@@ -12,7 +12,7 @@ export default function Aboutpage() {
     AOS.init();
   }, []);
   return (
-    <div className="max-w-[94%] mx-auto">
+    <div className="max-w-7xl mt-10 mx-auto px-4 sm:px-6 lg:px-8">
       <Helmet>
         <title>Codew | About Us</title>
       </Helmet>

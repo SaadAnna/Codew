@@ -11,7 +11,7 @@ export default function Choseservice() {
     AOS.init();
   }, []);
     return (
-        <div className="max-w-[94%] mx-auto">
+        <div className="max-w-7xl mt-10 mx-auto px-4 sm:px-6 lg:px-8">
             <Helmet>
                 
                 <title>Codew | Chose Service</title>
@@ -40,7 +40,7 @@ Welocome To Codew!
           className="text-black font-Text text-lg bg-transparent relative p-2  2xl:text-black 2xl:font-Text 2xl:text-lg 2xl:bg-transparent 2xl:relative 2xl:top-10 2xl:p-3  "
           onClick={handleClick}
           >
-        Create Shopify App 
+        Create Shopify Store 
 
         </Link>
         </div>

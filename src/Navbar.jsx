@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-transparent max-w-[94%] mx-auto">
+    <nav className="max-w-7xl mt-10 mx-auto px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mt-10 mx-auto px-4 sm:px-6 lg:px-8">
         {/* Removed mt-10 to align with the section */}
         <div className="flex justify-between items-center text-start">
@@ -71,8 +71,8 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="bg-black w-11/12 m-auto mt-6 text-center rounded">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <div className="bg-black w-11/12 mx-auto mt-6 text-center rounded">
+          <div className="px-2 pt-2 pb-3">
             <Link
               to="/Homepage"
               className="text-white font-Text block px-3 py-2 rounded-md text-base font-medium"

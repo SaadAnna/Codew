@@ -16,7 +16,7 @@ export default function Homepage() {
   return (
   
     
-    <div className="max-w-[94%] mx-auto">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <Helmet>
         <title>Codew | Home</title>
@@ -246,10 +246,10 @@ export default function Homepage() {
           </svg>
 
           <h1 className="text-3xl mt-3 font-Text font-medium m-auto leading-8 lg:text-3xl text-black">
-            Shopify App Development
+            Shopify Store Development
           </h1>
           <p className="text-neutral-600 lowercase font-normal text-xl font-Text mt-4">
-          Development Shopify Applications and Stores with High-Quality And Add E-commerce Features 
+          Development Shopify Stores with High-Quality And Add E-commerce Features 
           </p>
         </div>
       </div>

@@ -12,7 +12,7 @@ export default function Servicespage() {
     AOS.init();
   }, []);
   return (
-    <div className="max-w-[94%] mx-auto">
+    <div className="max-w-7xl mt-10 mx-auto px-4 sm:px-6 lg:px-8">
       <Helmet>
         <title>Codew | Services</title>
       </Helmet>
@@ -386,10 +386,10 @@ export default function Servicespage() {
           </svg>
 
           <h1 className="text-3xl mt-3 font-Text font-medium  leading-8 lg:text-3xl text-black">
-            Shopify App Development
+            Shopify Stores Development
           </h1>
           <p className="text-neutral-600 lowercase font-normal text-xl font-Text mt-4">
-            Development Shopify Applications and Stores with High-Quality And
+            Development Shopify Stores with High-Quality And
             Add E-commerce Features
           </p>
         </div>
