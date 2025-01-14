@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link
-                to="/Homepage"
+                to="Landingpage"
                 className="text-4xl font-Text font-medium lg:text-4xl text-black"
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
@@ -74,7 +74,7 @@ const Navbar = () => {
         <div className="bg-black w-11/12 mx-auto mt-6 text-center rounded">
           <div className="px-2 pt-2 pb-3">
             <Link
-              to="/Homepage"
+              to="/Landingpage"
               className="text-white font-Text block px-3 py-2 rounded-md text-base font-medium"
               onClick={handleLinkClick}
             >

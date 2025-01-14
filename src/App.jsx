@@ -1,4 +1,4 @@
-import Homepage from "./Homepage";
+import Landingpage from './Pages/Landingpage'
 import Navbar from "./Navbar";
 import Servicespage from "./Servicespage";
 import Firstproject from "./Firstproject"
@@ -23,8 +23,8 @@ function App() {
       <Scrolltop />
        <Navbar />
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/Homepage" element={<Homepage />} />
+          <Route path="/" element={<Landingpage />} />
+          <Route path="/Landingpage" element={<Landingpage />} />
           <Route path="/Servicespage" element={<Servicespage />} />
           <Route path="/Firstproject" element={<Firstproject />} />
           <Route path="/Secondproject" element={<Secondproject />} />
